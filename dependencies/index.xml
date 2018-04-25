@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<repository increment="1524247097662" name="GOSS Dependencies" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+<repository increment="1524630481663" name="GOSS Dependencies" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.github.andrewoma.dexx.collection"/>
@@ -12693,27 +12693,14 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="proven-api"/>
-      <attribute name="type" value="jarfile"/>
-      <attribute name="version" type="Version" value="1.0.0"/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="53dae74183226fe7f0407dea56bda56afd23e6b349e79a66885595f87d7601f4"/>
-      <attribute name="url" value="gov.pnnl.proven.api/proven-api-1.0.jar"/>
-      <attribute name="size" type="Long" value="23268429"/>
-      <attribute name="mime" value="application/java-archive"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="proven-message"/>
       <attribute name="type" value="jarfile"/>
       <attribute name="version" type="Version" value="0.1.0"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="a1df3ca2193c1db0fb4654eb7a1568d7e0f65d9629fcb2cabb32bab3ce16fa0f"/>
+      <attribute name="osgi.content" value="a30ffc2a09678a2ab41d8883bbefca2bc1cdae1716cb9a8aa579b75d65d1369c"/>
       <attribute name="url" value="gov.pnnl.proven.message/proven-message-0.1.jar"/>
-      <attribute name="size" type="Long" value="35832"/>
+      <attribute name="size" type="Long" value="45822"/>
       <attribute name="mime" value="application/java-archive"/>
     </capability>
   </resource>
