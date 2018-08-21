@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<repository increment="1534364502034" name="GOSS Dependencies" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+<repository increment="1534807816220" name="GOSS Dependencies" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.github.andrewoma.dexx.collection"/>
@@ -10374,6 +10374,105 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="com.fasterxml.jackson.core.jackson-core"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="fab8746aedd6427788ee390ea04d438ec141bff7eb3476f8bdd5d9110fb2718a"/>
+      <attribute name="url" value="com.fasterxml.jackson.core.jackson-core/jackson-core-2.9.6.jar"/>
+      <attribute name="size" type="Long" value="323848"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="com.fasterxml.jackson.core.jackson-core"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="com.fasterxml.jackson.core.jackson-core"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.core"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-core"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.core.async,com.fasterxml.jackson.core.format,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.sym,com.fasterxml.jackson.core.type,com.fasterxml.jackson.core.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.core.async"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-core"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.core.base"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-core"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.core,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.json,com.fasterxml.jackson.core.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.core.filter"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-core"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.core,com.fasterxml.jackson.core.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.core.format"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-core"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.core"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.core.io"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-core"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.core,com.fasterxml.jackson.core.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.core.json"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-core"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.core,com.fasterxml.jackson.core.base,com.fasterxml.jackson.core.format,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.sym"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.core.json.async"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-core"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.core,com.fasterxml.jackson.core.async,com.fasterxml.jackson.core.base,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.sym"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.core.sym"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-core"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.core.type"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-core"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.core"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.core.util"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-core"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.core,com.fasterxml.jackson.core.io"/>
+    </capability>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.6))"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.fasterxml.jackson.core.jackson-databind"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.6.3"/>
@@ -11007,6 +11106,275 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="657e3e979446d61f88432b9c50f0ccd9c1fe4f1c822d533f5572e4c0d172a125"/>
+      <attribute name="url" value="com.fasterxml.jackson.core.jackson-databind/jackson-databind-2.9.6.jar"/>
+      <attribute name="size" type="Long" value="1349339"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.filter,com.fasterxml.jackson.core.format,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.type,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.deser.impl,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.jsonschema,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.jsontype.impl,com.fasterxml.jackson.databind.node,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.ser.impl,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.annotation"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.cfg"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.type,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.deser"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.format,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.deser.impl,com.fasterxml.jackson.databind.deser.std,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.deser.impl"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.deser.std,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.deser.std"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.deser.impl,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.exc"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.introspect"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.ext"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.deser.std,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.ser.std,javax.xml.datatype,javax.xml.parsers,org.w3c.dom,org.w3c.dom.ls"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.introspect"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.jsontype.impl,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.jsonFormatVisitors"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.databind"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.jsonschema"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.node"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.jsontype"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.type,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.introspect"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.jsontype.impl"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.type,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.module"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.type"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.node"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.core,com.fasterxml.jackson.core.base,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.ser"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.io,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.jsonschema,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.node,com.fasterxml.jackson.databind.ser.impl,com.fasterxml.jackson.databind.ser.std,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.ser.impl"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.io,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.node,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.ser.std,com.fasterxml.jackson.databind.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.ser.std"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.type,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.jsonschema,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.node,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.ser.impl,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.type"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.core,com.fasterxml.jackson.core.type,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.databind.util"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-databind"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+      <directive name="uses" value="com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.base,com.fasterxml.jackson.core.json,com.fasterxml.jackson.core.util,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.type"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.annotation)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.core)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.core.base)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.core.filter)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.core.format)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.core.io)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.core.json)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.core.type)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.core.util)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.annotation)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.cfg)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.deser)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.deser.impl)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.deser.std)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.exc)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.ext)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.introspect)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.jsonFormatVisitors)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.jsonschema)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.jsontype)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.jsontype.impl)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.node)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.ser)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.ser.impl)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.ser.std)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.type)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind.util)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.datatype)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.namespace)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.parsers)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.w3c.dom)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.w3c.dom.bootstrap)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.w3c.dom.ls)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.xml.sax)"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.7))"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.fasterxml.jackson.core.jackson-annotations"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.6.3"/>
@@ -11090,6 +11458,36 @@
       <attribute name="version" type="Version" value="2.8.0"/>
       <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-annotations"/>
       <attribute name="bundle-version" type="Version" value="2.8.0"/>
+    </capability>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.6))"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="com.fasterxml.jackson.core.jackson-annotations"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="4d1ce5575ad53bee8caae4c15016878e2c3ea47276e675a35ea6bdde3bb0e653"/>
+      <attribute name="url" value="com.fasterxml.jackson.jaxrs.jackson-annotations/jackson-annotations-2.9.6.jar"/>
+      <attribute name="size" type="Long" value="66981"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="com.fasterxml.jackson.core.jackson-annotations"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="com.fasterxml.jackson.core.jackson-annotations"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.fasterxml.jackson.annotation"/>
+      <attribute name="version" type="Version" value="2.9.6"/>
+      <attribute name="bundle-symbolic-name" value="com.fasterxml.jackson.core.jackson-annotations"/>
+      <attribute name="bundle-version" type="Version" value="2.9.6"/>
     </capability>
     <requirement namespace="osgi.ee">
       <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.6))"/>
@@ -11367,6 +11765,86 @@
     </requirement>
     <requirement namespace="osgi.ee">
       <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.7))"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="com.github.jsonld-java"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="0.11.1"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="d79a4d5748afadabfd27a53244a734e3c39e91164f7741b4216b012e6673c594"/>
+      <attribute name="url" value="com.github.jsonld-java/jsonld-java-0.11.1.jar"/>
+      <attribute name="size" type="Long" value="107068"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="com.github.jsonld-java"/>
+      <attribute name="bundle-version" type="Version" value="0.11.1"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="com.github.jsonld-java"/>
+      <attribute name="bundle-version" type="Version" value="0.11.1"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.github.jsonldjava.core"/>
+      <attribute name="version" type="Version" value="0.11.1"/>
+      <attribute name="bundle-symbolic-name" value="com.github.jsonld-java"/>
+      <attribute name="bundle-version" type="Version" value="0.11.1"/>
+      <directive name="uses" value="org.apache.http.impl.client"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.github.jsonldjava.utils"/>
+      <attribute name="version" type="Version" value="0.11.1"/>
+      <attribute name="bundle-symbolic-name" value="com.github.jsonld-java"/>
+      <attribute name="bundle-version" type="Version" value="0.11.1"/>
+      <directive name="uses" value="com.fasterxml.jackson.core,com.fasterxml.jackson.databind,org.apache.http.client.cache,org.apache.http.impl.client,org.apache.http.impl.client.cache"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.slf4j)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.core)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=com.github.jsonldjava.utils)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.io)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http)(version&gt;=4.4.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.client)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.client.cache)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.client.methods)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.client.protocol)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.client.utils)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.impl.client)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.impl.client.cache)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.message)(version&gt;=4.4.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
     </requirement>
   </resource>
   <resource>
@@ -15440,6 +15918,45 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="proven-client"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="0.1.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="02c74ddb1139cf6e7dc4053d789b165fbb4a5fd3fb08cdd90c8fc12d254e578d"/>
+      <attribute name="url" value="gov.pnnl.proven.message/proven-client-0.1.jar"/>
+      <attribute name="size" type="Long" value="34762"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="proven-client"/>
+      <attribute name="bundle-version" type="Version" value="0.1.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="proven-client"/>
+      <attribute name="bundle-version" type="Version" value="0.1.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="gov.pnnl.proven.api.producer"/>
+      <attribute name="version" type="Version" value="0.1.0"/>
+      <attribute name="bundle-symbolic-name" value="proven-client"/>
+      <attribute name="bundle-version" type="Version" value="0.1.0"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.slf4j)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=gov.pnnl.proven.message)(version&gt;=0.1.0))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=java.ws.rs.client)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="proven-message-all-in-one"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="0.1.0"/>
@@ -15471,94 +15988,6 @@
       <attribute name="bundle-symbolic-name" value="proven-message-all-in-one"/>
       <attribute name="bundle-version" type="Version" value="0.1.0"/>
     </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="proven-message"/>
-      <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" type="Version" value="0.1.0"/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="2dbaacf4dd8c967f009823a29aa4248f4dc635accd0914f55eb041c2110e5996"/>
-      <attribute name="url" value="gov.pnnl.proven.message/proven-message-0.1-old.jar"/>
-      <attribute name="size" type="Long" value="423741"/>
-      <attribute name="mime" value="application/vnd.osgi.bundle"/>
-    </capability>
-    <capability namespace="osgi.wiring.bundle">
-      <attribute name="osgi.wiring.bundle" value="proven-message"/>
-      <attribute name="bundle-version" type="Version" value="0.1.0"/>
-    </capability>
-    <capability namespace="osgi.wiring.host">
-      <attribute name="osgi.wiring.host" value="proven-message"/>
-      <attribute name="bundle-version" type="Version" value="0.1.0"/>
-    </capability>
-    <capability namespace="osgi.wiring.package">
-      <attribute name="osgi.wiring.package" value="gov.pnnl.proven.message"/>
-      <attribute name="version" type="Version" value="0.1.0"/>
-      <attribute name="bundle-symbolic-name" value="proven-message"/>
-      <attribute name="bundle-version" type="Version" value="0.1.0"/>
-      <directive name="uses" value="gov.pnnl.proven.message.exception,javax.ws.rs.core,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,org.apache.jena.rdf.model"/>
-    </capability>
-    <capability namespace="osgi.wiring.package">
-      <attribute name="osgi.wiring.package" value="gov.pnnl.proven.message.exception"/>
-      <attribute name="version" type="Version" value="0.1.0"/>
-      <attribute name="bundle-symbolic-name" value="proven-message"/>
-      <attribute name="bundle-version" type="Version" value="0.1.0"/>
-    </capability>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=gov.pnnl.proven.message.exception)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.ws.rs.core)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=javax.xml.bind.annotation)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=javax.xml.bind.annotation.adapters)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.io)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.jena.graph)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.jena.graph.compose)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.jena.graph.impl)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.jena.rdf.model)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.jena.riot)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.jena.util.iterator)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=org.slf4j)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=org.topbraid.shacl.rules)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=org.topbraid.shacl.util)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=org.topbraid.spin.progress)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=com.hazelcast.nio)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=com.hazelcast.nio.serialization)"/>
-    </requirement>
-    <requirement namespace="osgi.ee">
-      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
-    </requirement>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
@@ -21009,6 +21438,78 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="org.apache.commons.codec"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="1.11.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="e599d5318e97aa48f42136a2927e6dfa4e8881dff0e6c8e3109ddbbff51d7b7d"/>
+      <attribute name="url" value="org.apache.commons.commons-codec/commons-codec-1.11.jar"/>
+      <attribute name="size" type="Long" value="335042"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="org.apache.commons.codec"/>
+      <attribute name="bundle-version" type="Version" value="1.11.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="org.apache.commons.codec"/>
+      <attribute name="bundle-version" type="Version" value="1.11.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.commons.codec"/>
+      <attribute name="version" type="Version" value="1.11.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.commons.codec"/>
+      <attribute name="bundle-version" type="Version" value="1.11.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.commons.codec.binary"/>
+      <attribute name="version" type="Version" value="1.11.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.commons.codec"/>
+      <attribute name="bundle-version" type="Version" value="1.11.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.commons.codec.cli"/>
+      <attribute name="version" type="Version" value="1.11.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.commons.codec"/>
+      <attribute name="bundle-version" type="Version" value="1.11.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.commons.codec.digest"/>
+      <attribute name="version" type="Version" value="1.11.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.commons.codec"/>
+      <attribute name="bundle-version" type="Version" value="1.11.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.commons.codec.language"/>
+      <attribute name="version" type="Version" value="1.11.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.commons.codec"/>
+      <attribute name="bundle-version" type="Version" value="1.11.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.commons.codec.language.bm"/>
+      <attribute name="version" type="Version" value="1.11.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.commons.codec"/>
+      <attribute name="bundle-version" type="Version" value="1.11.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.commons.codec.net"/>
+      <attribute name="version" type="Version" value="1.11.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.commons.codec"/>
+      <attribute name="bundle-version" type="Version" value="1.11.0"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.crypto)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.crypto.spec)"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.6))"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="org.apache.commons.csv"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="1.3.0"/>
@@ -21035,6 +21536,36 @@
     </capability>
     <requirement namespace="osgi.ee">
       <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.6))"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="org.apache.commons.csv"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="1.5.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="f0acb4058efe4616ea631b5119f59ef21fe43843f4e399455521e984e8df99e5"/>
+      <attribute name="url" value="org.apache.commons.commons-csv/commons-csv-1.5.jar"/>
+      <attribute name="size" type="Long" value="41586"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="org.apache.commons.csv"/>
+      <attribute name="bundle-version" type="Version" value="1.5.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="org.apache.commons.csv"/>
+      <attribute name="bundle-version" type="Version" value="1.5.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.commons.csv"/>
+      <attribute name="version" type="Version" value="1.5.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.commons.csv"/>
+      <attribute name="bundle-version" type="Version" value="1.5.0"/>
+    </capability>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.7))"/>
     </requirement>
   </resource>
   <resource>
@@ -27104,6 +27635,1549 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="org.apache.jena.osgi"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="762767ad7e29c8b5133acfae90cb45c65848c6e9b7dee1b7e4fead8412aec82f"/>
+      <attribute name="url" value="org.apache.jena.osgi/jena-osgi-3.7.0.jar"/>
+      <attribute name="size" type="Long" value="7954713"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.arq"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.assembler"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.assembler.assemblers,org.apache.jena.assembler.exceptions,org.apache.jena.graph,org.apache.jena.rdf.model,org.apache.jena.reasoner.rulesys,org.apache.jena.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.assembler.assemblers"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.assembler,org.apache.jena.ontology,org.apache.jena.rdf.model,org.apache.jena.reasoner,org.apache.jena.reasoner.rulesys,org.apache.jena.shared,org.apache.jena.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.assembler.exceptions"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.assembler,org.apache.jena.assembler.assemblers,org.apache.jena.rdf.model,org.apache.jena.shared"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.csv"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.data"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.iterator,org.apache.jena.atlas.lib,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.event"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.io"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.iterator"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.json"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.json.io"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.atlas.json"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.json.io.parser"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.atlas.json.io,org.apache.jena.riot.tokens"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.json.io.parserjavacc"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.json.io"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.json.io.parserjavacc.javacc"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.json.io"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.lib"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.commons.lang3.time,org.apache.jena.atlas.io,org.apache.jena.atlas.lib.tuple,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.lib.cache"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib,org.apache.jena.ext.com.google.common.cache"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.lib.persistent"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="com.github.andrewoma.dexx.collection"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.lib.tuple"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.logging"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib,org.apache.log4j,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.logging.java"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.test"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.atlas.web"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.base"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.datatypes"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph.impl,org.apache.jena.shared"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.datatypes.xsd"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.datatypes,org.apache.jena.graph.impl,org.apache.jena.shared,org.apache.xerces.impl.dv"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.datatypes.xsd.impl"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.datatypes,org.apache.jena.datatypes.xsd,org.apache.jena.graph.impl"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.enhanced"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib,org.apache.jena.graph,org.apache.jena.rdf.model,org.apache.jena.shared"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.annotations"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.base"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.annotation"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.base.internal"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.annotation"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.cache"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.annotation,org.apache.jena.ext.com.google.common.base,org.apache.jena.ext.com.google.common.collect,org.apache.jena.ext.com.google.common.util.concurrent"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.collect"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.annotation,org.apache.jena.ext.com.google.common.base"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.escape"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.annotation,org.apache.jena.ext.com.google.common.base"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.eventbus"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.graph"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.annotation,org.apache.jena.ext.com.google.common.collect"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.hash"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.annotation,org.apache.jena.ext.com.google.common.base"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.html"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.ext.com.google.common.escape"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.io"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.annotation,org.apache.jena.ext.com.google.common.base,org.apache.jena.ext.com.google.common.collect,org.apache.jena.ext.com.google.common.hash"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.math"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.annotation"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.net"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.annotation,org.apache.jena.ext.com.google.common.base,org.apache.jena.ext.com.google.common.collect,org.apache.jena.ext.com.google.common.escape"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.primitives"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.annotation,org.apache.jena.ext.com.google.common.base"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.reflect"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.annotation,org.apache.jena.ext.com.google.common.collect,org.apache.jena.ext.com.google.common.io"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.util.concurrent"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.annotation,org.apache.jena.ext.com.google.common.base,org.apache.jena.ext.com.google.common.collect"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.common.xml"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.ext.com.google.common.escape"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ext.com.google.thirdparty.publicsuffix"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.ext.com.google.common.collect"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.graph"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.datatypes,org.apache.jena.graph.impl,org.apache.jena.shared,org.apache.jena.util.iterator"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.graph.compose"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.graph.impl,org.apache.jena.shared,org.apache.jena.shared.impl,org.apache.jena.util.iterator"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.graph.impl"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.datatypes,org.apache.jena.graph,org.apache.jena.shared,org.apache.jena.util.iterator"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.iri"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.iri.impl"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.iri.impl"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.xml.transform,org.apache.jena.iri"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.mem"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.graph.impl,org.apache.jena.util.iterator"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.n3"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.iri,org.apache.jena.rdf.model,org.apache.jena.shared,org.apache.jena.util.iterator"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.n3.turtle"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.n3,org.apache.jena.rdf.model,org.apache.jena.shared"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.n3.turtle.parser"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.n3.turtle"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ontology"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.enhanced,org.apache.jena.graph,org.apache.jena.rdf.model,org.apache.jena.reasoner,org.apache.jena.shared,org.apache.jena.util,org.apache.jena.util.iterator"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.ontology.impl"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.enhanced,org.apache.jena.graph,org.apache.jena.graph.compose,org.apache.jena.ontology,org.apache.jena.rdf.listeners,org.apache.jena.rdf.model,org.apache.jena.rdf.model.impl,org.apache.jena.reasoner,org.apache.jena.util,org.apache.jena.util.iterator"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.osgi"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.osgi.framework"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.query"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.http.client,org.apache.http.protocol,org.apache.jena.atlas.io,org.apache.jena.datatypes,org.apache.jena.graph,org.apache.jena.iri,org.apache.jena.rdf.model,org.apache.jena.riot,org.apache.jena.shared,org.apache.jena.sparql,org.apache.jena.sparql.algebra.table,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.engine.http,org.apache.jena.sparql.expr,org.apache.jena.sparql.expr.aggregate,org.apache.jena.sparql.mgt,org.apache.jena.sparql.resultset,org.apache.jena.sparql.serializer,org.apache.jena.sparql.syntax,org.apache.jena.sparql.util,org.apache.jena.update,org.apache.jena.util,org.apache.jena.web,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.rdf.listeners"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.rdf.model"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.rdf.model"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.datatypes,org.apache.jena.graph,org.apache.jena.ontology,org.apache.jena.reasoner,org.apache.jena.shared,org.apache.jena.util.iterator"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.rdf.model.impl"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.datatypes,org.apache.jena.enhanced,org.apache.jena.graph,org.apache.jena.rdf.model,org.apache.jena.reasoner,org.apache.jena.shared,org.apache.jena.util.iterator,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.rdfconnection"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.http,org.apache.http.client,org.apache.http.protocol,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.riot,org.apache.jena.shared,org.apache.jena.sparql.core,org.apache.jena.update"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.rdfconnection.examples"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.rdfxml.xmlinput"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.xml.stream,org.apache.jena.graph,org.apache.jena.iri,org.apache.jena.rdf.model,org.apache.jena.rdfxml.xmlinput.impl,org.apache.jena.shared,org.w3c.dom,org.xml.sax"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.rdfxml.xmlinput.impl"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.iri,org.apache.jena.rdf.model,org.apache.jena.rdfxml.xmlinput,org.apache.jena.rdfxml.xmlinput.states,org.apache.xerces.parsers,org.apache.xerces.xni,org.xml.sax,org.xml.sax.ext"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.rdfxml.xmlinput.states"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.rdfxml.xmlinput,org.apache.jena.rdfxml.xmlinput.impl,org.xml.sax"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.rdfxml.xmloutput"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.rdf.model"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.rdfxml.xmloutput.impl"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.rdf.model,org.apache.jena.rdfxml.xmloutput"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.reasoner"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.graph.impl,org.apache.jena.rdf.model,org.apache.jena.reasoner.rulesys,org.apache.jena.shared,org.apache.jena.util.iterator"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.reasoner.rulesys"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.datatypes,org.apache.jena.graph,org.apache.jena.rdf.model,org.apache.jena.reasoner,org.apache.jena.reasoner.rulesys.impl,org.apache.jena.reasoner.transitiveReasoner,org.apache.jena.shared,org.apache.jena.util,org.apache.jena.util.iterator,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.reasoner.rulesys.builtins"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.reasoner.rulesys"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.reasoner.rulesys.impl"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.graph.impl,org.apache.jena.rdf.model,org.apache.jena.reasoner,org.apache.jena.reasoner.rulesys,org.apache.jena.util,org.apache.jena.util.iterator,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.reasoner.transitiveReasoner"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.rdf.model,org.apache.jena.reasoner,org.apache.jena.util.iterator"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="com.github.jsonldjava.core,org.apache.http.client,org.apache.jena.atlas.web,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.riot.lang,org.apache.jena.riot.system,org.apache.jena.riot.system.stream,org.apache.jena.shared,org.apache.jena.sparql.core,org.apache.jena.sparql.util,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.adapters"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.rdf.model,org.apache.jena.riot,org.apache.jena.riot.system,org.apache.jena.riot.system.stream,org.apache.jena.riot.writer,org.apache.jena.sparql.util,org.apache.jena.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.checker"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.datatypes,org.apache.jena.graph,org.apache.jena.graph.impl,org.apache.jena.iri,org.apache.jena.riot.system"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.lang"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib,org.apache.jena.atlas.lib.tuple,org.apache.jena.atlas.web,org.apache.jena.graph,org.apache.jena.riot,org.apache.jena.riot.system,org.apache.jena.riot.tokens,org.apache.jena.sparql.core,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.other"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.iterator,org.apache.jena.graph,org.apache.jena.riot.system,org.apache.jena.sparql.core"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.out"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.atlas.lib,org.apache.jena.graph,org.apache.jena.rdf.model,org.apache.jena.riot.system,org.apache.jena.sparql.core,org.apache.jena.sparql.serializer"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.out.quoted"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.atlas.lib"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.process"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.riot.system,org.apache.jena.sparql.core"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.process.inf"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.rdf.model,org.apache.jena.riot.system,org.apache.jena.sparql.core"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.process.normalize"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.riot.process,org.apache.jena.riot.system"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.resultset"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.query,org.apache.jena.riot,org.apache.jena.sparql.resultset,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.resultset.rw"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.atlas.lib,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.riot,org.apache.jena.riot.resultset,org.apache.jena.riot.tokens,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.engine.iterator,org.apache.jena.sparql.resultset,org.apache.jena.sparql.serializer,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.system"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.data,org.apache.jena.atlas.io,org.apache.jena.atlas.iterator,org.apache.jena.atlas.lib,org.apache.jena.atlas.lib.cache,org.apache.jena.datatypes,org.apache.jena.graph,org.apache.jena.iri,org.apache.jena.rdf.model,org.apache.jena.riot,org.apache.jena.riot.checker,org.apache.jena.riot.lang,org.apache.jena.riot.out,org.apache.jena.riot.tokens,org.apache.jena.riot.writer,org.apache.jena.shared,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.util,org.apache.jena.system,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.system.stream"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.web,org.apache.jena.rdf.model,org.apache.jena.sparql.util,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.thrift"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.atlas.iterator,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.riot,org.apache.jena.riot.system,org.apache.jena.riot.thrift.wire,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.util,org.apache.thrift,org.apache.thrift.protocol,org.apache.thrift.transport"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.thrift.wire"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.thrift,org.apache.thrift.meta_data,org.apache.thrift.protocol"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.tokens"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib,org.apache.jena.graph,org.apache.jena.riot.system"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.web"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.http,org.apache.http.client,org.apache.http.impl.client,org.apache.http.protocol,org.apache.jena.atlas.web,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.http"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.riot.writer"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="com.fasterxml.jackson.core,com.github.jsonldjava.core,org.apache.jena.atlas.io,org.apache.jena.atlas.lib,org.apache.jena.graph,org.apache.jena.rdf.model,org.apache.jena.riot,org.apache.jena.riot.adapters,org.apache.jena.riot.out,org.apache.jena.riot.system,org.apache.jena.sparql.core,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.shared"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.graph.impl,org.apache.jena.rdf.model,org.apache.jena.util.iterator"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.shared.impl"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.shared"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.shared.uuid"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.shared,org.apache.jena.sparql.core,org.apache.jena.sparql.mgt,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.algebra"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.atlas.lib,org.apache.jena.atlas.lib.tuple,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.shared,org.apache.jena.sparql.algebra.op,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.sparql.pfunction,org.apache.jena.sparql.sse,org.apache.jena.sparql.sse.builders,org.apache.jena.sparql.syntax,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.algebra.op"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.sparql.algebra,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.expr,org.apache.jena.sparql.pfunction,org.apache.jena.sparql.serializer,org.apache.jena.sparql.syntax,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.algebra.optimize"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.sparql.algebra,org.apache.jena.sparql.algebra.op,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.optimizer.reorder,org.apache.jena.sparql.expr,org.apache.jena.sparql.path,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.algebra.table"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.sparql.algebra,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.engine.ref,org.apache.jena.sparql.serializer"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.algebra.walker"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.query,org.apache.jena.sparql.algebra,org.apache.jena.sparql.algebra.op,org.apache.jena.sparql.core,org.apache.jena.sparql.expr,org.apache.jena.sparql.syntax"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.core"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.iterator,org.apache.jena.atlas.lib,org.apache.jena.graph,org.apache.jena.graph.impl,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.riot.system,org.apache.jena.shared,org.apache.jena.sparql.algebra,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.sparql.function,org.apache.jena.sparql.graph,org.apache.jena.sparql.path,org.apache.jena.sparql.pfunction,org.apache.jena.sparql.util,org.apache.jena.util.iterator"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.core.assembler"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.assembler,org.apache.jena.assembler.assemblers,org.apache.jena.assembler.exceptions,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.shared,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.core.describe"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.rdf.model,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.core.mem"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="com.github.andrewoma.dexx.collection,org.apache.jena.atlas.lib.persistent,org.apache.jena.atlas.lib.tuple,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.shared,org.apache.jena.sparql.core,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.engine"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.atlas.lib,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.sparql.algebra,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.engine.main,org.apache.jena.sparql.expr,org.apache.jena.sparql.function,org.apache.jena.sparql.mgt,org.apache.jena.sparql.resultset,org.apache.jena.sparql.serializer,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.engine.binding"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.riot.lang,org.apache.jena.riot.system,org.apache.jena.riot.tokens,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.expr"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.engine.http"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.http,org.apache.http.client,org.apache.http.protocol,org.apache.jena.atlas.lib,org.apache.jena.atlas.web,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.sparql.algebra.op,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.engine.index"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.engine.iterator"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.atlas.lib,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.sparql.algebra.op,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.engine.main,org.apache.jena.sparql.expr,org.apache.jena.sparql.procedure,org.apache.jena.sparql.serializer,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.engine.join"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.engine.iterator,org.apache.jena.sparql.expr"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.engine.main"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.query,org.apache.jena.sparql.algebra,org.apache.jena.sparql.algebra.op,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.engine.optimizer.reorder,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.engine.main.iterator"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.graph,org.apache.jena.sparql.algebra,org.apache.jena.sparql.algebra.op,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.engine.iterator,org.apache.jena.sparql.serializer"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.engine.optimizer"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.graph,org.apache.jena.sparql.engine.optimizer.reorder,org.apache.jena.sparql.sse"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.engine.optimizer.reorder"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.optimizer,org.apache.jena.sparql.sse,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.engine.ref"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.query,org.apache.jena.sparql.algebra,org.apache.jena.sparql.algebra.op,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.sparql.pfunction,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.expr"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.xml.datatype,org.apache.jena.atlas.io,org.apache.jena.datatypes,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.sparql.algebra,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr.aggregate,org.apache.jena.sparql.expr.nodevalue,org.apache.jena.sparql.function,org.apache.jena.sparql.graph,org.apache.jena.sparql.serializer,org.apache.jena.sparql.syntax,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.expr.aggregate"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.sparql.function,org.apache.jena.sparql.graph,org.apache.jena.sparql.serializer"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.expr.aggregate.lib"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.sparql.expr"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.expr.nodevalue"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.xml.datatype,org.apache.jena.datatypes,org.apache.jena.datatypes.xsd,org.apache.jena.graph,org.apache.jena.sparql.expr"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.function"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.datatypes.xsd,org.apache.jena.graph,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.function.js"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.script,org.apache.jena.sparql.expr,org.apache.jena.sparql.function,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.function.library"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.sparql.function,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.function.library.leviathan"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.sparql.expr,org.apache.jena.sparql.function"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.function.user"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.sparql.core,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.sparql.function,org.apache.jena.sparql.lang.sparql_11"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.graph"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.data,org.apache.jena.datatypes,org.apache.jena.graph,org.apache.jena.graph.impl,org.apache.jena.mem,org.apache.jena.rdf.model,org.apache.jena.shared,org.apache.jena.shared.impl,org.apache.jena.sparql.algebra,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.util.iterator"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.lang"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.query,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.sparql.modify,org.apache.jena.sparql.modify.request,org.apache.jena.sparql.path,org.apache.jena.sparql.syntax,org.apache.jena.update"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.lang.arq"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.json.io,org.apache.jena.graph,org.apache.jena.sparql.core,org.apache.jena.sparql.expr,org.apache.jena.sparql.expr.aggregate,org.apache.jena.sparql.modify.request,org.apache.jena.sparql.path,org.apache.jena.sparql.syntax,org.apache.jena.update"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.lang.sparql_10"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.sparql.core,org.apache.jena.sparql.expr,org.apache.jena.sparql.path,org.apache.jena.sparql.syntax"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.lang.sparql_11"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.sparql.core,org.apache.jena.sparql.expr,org.apache.jena.sparql.expr.aggregate,org.apache.jena.sparql.modify.request,org.apache.jena.sparql.path,org.apache.jena.sparql.syntax,org.apache.jena.update"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.lib"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.json,org.apache.jena.graph"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.mgt"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="javax.management,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.sparql.algebra,org.apache.jena.sparql.core,org.apache.jena.sparql.path,org.apache.jena.sparql.util,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.modify"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.http.client,org.apache.http.protocol,org.apache.jena.atlas.lib,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.engine.http,org.apache.jena.sparql.graph,org.apache.jena.sparql.modify.request,org.apache.jena.sparql.syntax,org.apache.jena.sparql.util,org.apache.jena.update"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.modify.request"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.atlas.lib,org.apache.jena.graph,org.apache.jena.riot.out,org.apache.jena.sparql.core,org.apache.jena.sparql.serializer,org.apache.jena.sparql.syntax,org.apache.jena.sparql.util,org.apache.jena.update"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.path"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.graph,org.apache.jena.shared,org.apache.jena.sparql.algebra,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.pfunction,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.path.eval"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.iterator,org.apache.jena.graph,org.apache.jena.sparql.path,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.pfunction"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.graph,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.sparql.procedure,org.apache.jena.sparql.serializer,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.pfunction.library"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.pfunction"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.procedure"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.graph,org.apache.jena.sparql.algebra.op,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.sparql.pfunction,org.apache.jena.sparql.serializer,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.procedure.library"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.sparql.procedure"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.resultset"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.atlas.lib,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.riot,org.apache.jena.shared,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.engine.iterator,org.apache.jena.sparql.serializer,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.serializer"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.shared,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.sparql.modify.request,org.apache.jena.sparql.syntax,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.sse"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.shared,org.apache.jena.sparql,org.apache.jena.sparql.algebra,org.apache.jena.sparql.core,org.apache.jena.sparql.expr,org.apache.jena.sparql.path,org.apache.jena.sparql.serializer"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.sse.builders"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.query,org.apache.jena.shared,org.apache.jena.sparql.algebra,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.sparql.path,org.apache.jena.sparql.sse"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.sse.lang"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.sparql.core,org.apache.jena.sparql.lang,org.apache.jena.sparql.sse"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.sse.lang.parser"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.sparql.sse.lang"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.sse.writers"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.graph,org.apache.jena.shared,org.apache.jena.sparql.algebra,org.apache.jena.sparql.algebra.op,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.sparql.path,org.apache.jena.sparql.serializer"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.syntax"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.query,org.apache.jena.sparql.algebra,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.sparql.modify.request,org.apache.jena.sparql.serializer,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.syntax.syntaxtransform"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.sparql.algebra,org.apache.jena.sparql.core,org.apache.jena.sparql.expr,org.apache.jena.sparql.graph,org.apache.jena.sparql.syntax,org.apache.jena.update"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.system"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.system"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.util"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.atlas.lib,org.apache.jena.atlas.lib.tuple,org.apache.jena.datatypes,org.apache.jena.graph,org.apache.jena.iri,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.riot.system,org.apache.jena.shared,org.apache.jena.sparql.algebra,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.expr,org.apache.jena.sparql.pfunction,org.apache.jena.sparql.resultset,org.apache.jena.sparql.serializer,org.apache.jena.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.util.compose"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib,org.apache.jena.query,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.util.graph"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.iterator,org.apache.jena.graph,org.apache.jena.graph.impl,org.apache.jena.rdf.model,org.apache.jena.sparql.core,org.apache.jena.util.iterator"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.sparql.vocabulary"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.rdf.model"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.system"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.query,org.apache.jena.sparql.core"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.shared,org.apache.jena.sparql.core,org.apache.jena.sparql.util,org.apache.jena.tdb.base.file,org.apache.jena.tdb.setup,org.apache.jena.tdb.store,org.apache.jena.tdb.transaction,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.assembler"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.assembler,org.apache.jena.assembler.assemblers,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.sparql.core.assembler,org.apache.jena.tdb.store.tupletable"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.base"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.base.block"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.atlas.lib,org.apache.jena.ext.com.google.common.collect,org.apache.jena.sparql.util,org.apache.jena.tdb.base.file,org.apache.jena.tdb.base.page,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.base.buffer"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.tdb.base.record"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.base.file"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib,org.apache.jena.tdb,org.apache.jena.tdb.base.block,org.apache.jena.tdb.base.objectfile,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.base.objectfile"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib,org.apache.jena.tdb.base.file"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.base.page"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.tdb.base.block"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.base.record"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.tdb"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.base.recordbuffer"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.atlas.lib,org.apache.jena.tdb.base.block,org.apache.jena.tdb.base.buffer,org.apache.jena.tdb.base.page,org.apache.jena.tdb.base.record"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.index"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib,org.apache.jena.atlas.lib.tuple,org.apache.jena.tdb.base.block,org.apache.jena.tdb.base.file,org.apache.jena.tdb.base.record,org.apache.jena.tdb.index.bplustree,org.apache.jena.tdb.setup,org.apache.jena.tdb.store,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.index.bplustree"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.io,org.apache.jena.tdb,org.apache.jena.tdb.base.block,org.apache.jena.tdb.base.buffer,org.apache.jena.tdb.base.file,org.apache.jena.tdb.base.page,org.apache.jena.tdb.base.record,org.apache.jena.tdb.base.recordbuffer,org.apache.jena.tdb.index"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.index.ext"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.tdb.base.block,org.apache.jena.tdb.base.file,org.apache.jena.tdb.base.page,org.apache.jena.tdb.base.record,org.apache.jena.tdb.base.recordbuffer,org.apache.jena.tdb.index"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.lib"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib.tuple,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.sparql.core,org.apache.jena.tdb.base.block,org.apache.jena.tdb.base.objectfile,org.apache.jena.tdb.base.record,org.apache.jena.tdb.index.bplustree,org.apache.jena.tdb.store,org.apache.jena.tdb.store.nodetable,org.apache.jena.tdb.store.tupletable"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.mgt"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.migrate"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.shared,org.apache.jena.sparql.algebra,org.apache.jena.sparql.algebra.op,org.apache.jena.sparql.engine,org.apache.jena.sparql.pfunction,org.apache.jena.tdb.transaction"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.modify"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.modify,org.apache.jena.sparql.util,org.apache.jena.tdb.store"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.setup"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.json,org.apache.jena.sparql.engine.optimizer.reorder,org.apache.jena.tdb.base.block,org.apache.jena.tdb.base.file,org.apache.jena.tdb.base.objectfile,org.apache.jena.tdb.index,org.apache.jena.tdb.lib,org.apache.jena.tdb.store,org.apache.jena.tdb.store.nodetable,org.apache.jena.tdb.store.tupletable,org.apache.jena.tdb.sys"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.solver"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.iterator,org.apache.jena.atlas.lib,org.apache.jena.atlas.lib.tuple,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.sparql.algebra,org.apache.jena.sparql.algebra.op,org.apache.jena.sparql.core,org.apache.jena.sparql.engine,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.engine.iterator,org.apache.jena.sparql.engine.main,org.apache.jena.sparql.util,org.apache.jena.tdb.store,org.apache.jena.tdb.store.nodetable,org.apache.jena.tdb.store.nodetupletable"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.solver.stats"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.sparql.sse,org.apache.jena.tdb.store,org.apache.jena.tdb.store.nodetable"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.store"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib,org.apache.jena.datatypes.xsd,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.shared,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.optimizer.reorder,org.apache.jena.sparql.util,org.apache.jena.tdb.base.block,org.apache.jena.tdb.base.file,org.apache.jena.tdb.base.objectfile,org.apache.jena.tdb.setup,org.apache.jena.tdb.store.nodetable,org.apache.jena.tdb.store.nodetupletable,org.apache.jena.tdb.store.tupletable,org.apache.jena.tdb.sys,org.apache.jena.tdb.transaction,org.apache.jena.util.iterator"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.store.bulkloader"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.event,org.apache.jena.atlas.lib,org.apache.jena.graph,org.apache.jena.riot.system,org.apache.jena.sparql.core,org.apache.jena.tdb.store,org.apache.jena.tdb.store.nodetupletable,org.apache.jena.tdb.store.tupletable,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.store.bulkloader2"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.tdb.base.file,org.apache.jena.tdb.base.record,org.apache.jena.tdb.lib"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.store.nodetable"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib,org.apache.jena.graph,org.apache.jena.shared,org.apache.jena.tdb.base.objectfile,org.apache.jena.tdb.index,org.apache.jena.tdb.setup,org.apache.jena.tdb.store"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.store.nodetupletable"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib,org.apache.jena.atlas.lib.tuple,org.apache.jena.graph,org.apache.jena.tdb.store,org.apache.jena.tdb.store.nodetable,org.apache.jena.tdb.store.tupletable,org.apache.jena.tdb.sys"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.store.tupletable"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib,org.apache.jena.atlas.lib.tuple,org.apache.jena.tdb.base.record,org.apache.jena.tdb.index,org.apache.jena.tdb.lib,org.apache.jena.tdb.store"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.sys"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.graph,org.apache.jena.query,org.apache.jena.shared,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.optimizer.reorder,org.apache.jena.sparql.util,org.apache.jena.system,org.apache.jena.tdb,org.apache.jena.tdb.base.block,org.apache.jena.tdb.base.file,org.apache.jena.tdb.base.objectfile,org.apache.jena.tdb.base.record,org.apache.jena.tdb.index,org.apache.jena.tdb.index.bplustree,org.apache.jena.tdb.setup,org.apache.jena.tdb.store,org.apache.jena.tdb.store.tupletable,org.apache.jena.tdb.transaction,org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.tdb.transaction"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.sparql.core,org.apache.jena.sparql.util,org.apache.jena.tdb,org.apache.jena.tdb.base.block,org.apache.jena.tdb.base.file,org.apache.jena.tdb.base.objectfile,org.apache.jena.tdb.store,org.apache.jena.tdb.sys"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.update"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.http.client,org.apache.http.protocol,org.apache.jena.atlas.io,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.shared,org.apache.jena.sparql,org.apache.jena.sparql.core,org.apache.jena.sparql.engine.binding,org.apache.jena.sparql.lang,org.apache.jena.sparql.modify,org.apache.jena.sparql.modify.request,org.apache.jena.sparql.serializer,org.apache.jena.sparql.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.util"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.atlas.lib,org.apache.jena.graph,org.apache.jena.graph.impl,org.apache.jena.rdf.model,org.apache.jena.rdf.model.impl,org.apache.jena.reasoner,org.apache.jena.shared"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.util.iterator"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.vocabulary"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.jena.datatypes,org.apache.jena.graph,org.apache.jena.ontology,org.apache.jena.rdf.model"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.jena.web"/>
+      <attribute name="version" type="Version" value="3.7.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.jena.osgi"/>
+      <attribute name="bundle-version" type="Version" value="3.7.0"/>
+      <directive name="uses" value="org.apache.http,org.apache.http.client,org.apache.jena.graph,org.apache.jena.query,org.apache.jena.rdf.model,org.apache.jena.riot,org.apache.jena.shared,org.apache.jena.sparql.core"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.xerces.impl.dv)(version&gt;=2.11.0))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.xerces.impl.dv.util)(version&gt;=2.11.0))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.xerces.impl.dv.xs)(version&gt;=2.11.0))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.xerces.impl.validation)(version&gt;=2.11.0))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.xerces.impl.xpath.regex)(version&gt;=2.11.0))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.xerces.parsers)(version&gt;=2.11.0))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.xerces.util)(version&gt;=2.11.0))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.xerces.xni)(version&gt;=2.11.0))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.xerces.xni.grammars)(version&gt;=2.11.0))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.xerces.xni.parser)(version&gt;=2.11.0))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.xerces.xs)(version&gt;=2.11.0))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=sun.misc)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=com.google.errorprone.annotations.concurrent)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.core)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=com.github.andrewoma.dexx.collection)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.github.jsonldjava.core)(version&gt;=0.11.0)(!(version&gt;=1.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.github.jsonldjava.utils)(version&gt;=0.11.0)(!(version&gt;=1.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.annotation)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.crypto)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.crypto.spec)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.management)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.script)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.datatype)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.namespace)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.stream)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.stream.events)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.transform)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.transform.dom)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.transform.sax)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.transform.stream)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.codec.binary)(version&gt;=1.11.0)(!(version&gt;=2.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.csv)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.io)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.lang3)(version&gt;=3.4.0)(!(version&gt;=4.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.lang3.concurrent)(version&gt;=3.4.0)(!(version&gt;=4.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.lang3.time)(version&gt;=3.4.0)(!(version&gt;=4.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.apache.http)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.client)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.client.config)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.client.entity)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.client.methods)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.client.protocol)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.client.utils)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.apache.http.entity)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.impl.client)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.impl.client.cache)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.message)(version&gt;=4.4.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.protocol)(version&gt;=4.4.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.http.util)(version&gt;=4.4.0)(!(version&gt;=5.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.apache.log4j)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.log4j.xml)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.thrift)(version&gt;=0.10.0)(!(version&gt;=1.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.thrift.meta_data)(version&gt;=0.10.0)(!(version&gt;=1.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.thrift.protocol)(version&gt;=0.10.0)(!(version&gt;=1.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.thrift.scheme)(version&gt;=0.10.0)(!(version&gt;=1.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.thrift.transport)(version&gt;=0.10.0)(!(version&gt;=1.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.w3c.dom)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.xml.sax)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.xml.sax.ext)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.xml.sax.helpers)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="jena-arq"/>
       <attribute name="type" value="jarfile"/>
       <attribute name="version" type="Version" value="3.4.0"/>
@@ -28309,6 +30383,120 @@
     </requirement>
     <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(&amp;(osgi.wiring.package=org.slf4j)(version&gt;=1.6.0))"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="org.apache.thrift"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="0.10.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="8591718c1884ac8001b4c5ca80f349c0a6deec691de0af720c5e3bc3a581dada"/>
+      <attribute name="url" value="org.apache.thrift.libthrift/libthrift-0.10.0.jar"/>
+      <attribute name="size" type="Long" value="236865"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="org.apache.thrift"/>
+      <attribute name="bundle-version" type="Version" value="0.10.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="org.apache.thrift"/>
+      <attribute name="bundle-version" type="Version" value="0.10.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.thrift.async"/>
+      <attribute name="version" type="Version" value="0.10.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.thrift"/>
+      <attribute name="bundle-version" type="Version" value="0.10.0"/>
+      <directive name="uses" value="org.apache.thrift.protocol,org.apache.thrift.transport,org.slf4j,org.apache.thrift"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.thrift.protocol"/>
+      <attribute name="version" type="Version" value="0.10.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.thrift"/>
+      <attribute name="bundle-version" type="Version" value="0.10.0"/>
+      <directive name="uses" value="org.apache.thrift.transport,org.apache.thrift,org.apache.thrift.scheme"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.thrift.server"/>
+      <attribute name="version" type="Version" value="0.10.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.thrift"/>
+      <attribute name="bundle-version" type="Version" value="0.10.0"/>
+      <directive name="uses" value="org.apache.thrift.transport,org.apache.thrift.protocol,org.apache.thrift,org.slf4j,javax.servlet,javax.servlet.http"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.thrift.transport"/>
+      <attribute name="version" type="Version" value="0.10.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.thrift"/>
+      <attribute name="bundle-version" type="Version" value="0.10.0"/>
+      <directive name="uses" value="org.apache.thrift.protocol,org.apache.thrift,org.apache.http.client,org.apache.http.params,org.apache.http.entity,org.apache.http.client.methods,org.apache.http,org.slf4j,javax.net.ssl,javax.net,javax.security.sasl,javax.security.auth.callback"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.thrift"/>
+      <attribute name="version" type="Version" value="0.10.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.thrift"/>
+      <attribute name="bundle-version" type="Version" value="0.10.0"/>
+      <directive name="uses" value="org.apache.thrift.protocol,org.apache.thrift.async,org.apache.thrift.server,org.apache.thrift.transport,org.slf4j,org.apache.log4j,org.apache.thrift.scheme"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.thrift.meta_data"/>
+      <attribute name="version" type="Version" value="0.10.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.thrift"/>
+      <attribute name="bundle-version" type="Version" value="0.10.0"/>
+      <directive name="uses" value="org.apache.thrift"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.apache.thrift.scheme"/>
+      <attribute name="version" type="Version" value="0.10.0"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.thrift"/>
+      <attribute name="bundle-version" type="Version" value="0.10.0"/>
+      <directive name="uses" value="org.apache.thrift.protocol,org.apache.thrift"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.net)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.net.ssl)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.security.auth.callback)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.security.sasl)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.servlet)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.servlet.http)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.slf4j)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.apache.http.client)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.apache.http.params)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.apache.http.entity)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.apache.http.client.methods)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.apache.http)"/>
+      <directive name="resolution" value="optional"/>
     </requirement>
   </resource>
   <resource>
