@@ -2,9 +2,11 @@
  * Rebuild index for bundle-hub
  */
 repositories {
-  maven {
+  /*maven {
     url 'http://dl.bintray.com/bnd/bnd'
-  }
+  }*/
+  google()
+  jcenter()
 }
 
 configurations {
@@ -34,6 +36,6 @@ task('index') {
   }
 }
 
-task wrapper(type: Wrapper) {
+/*task wrapper(type: Wrapper) {
   jarFile = rootProject.file('.gradle-wrapper/gradle-wrapper.jar')
-}
+}*/
