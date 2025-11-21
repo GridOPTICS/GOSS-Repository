@@ -1,0 +1,1624 @@
+{
+  "_description": "GOSS-Repository dependency configuration - Maps OSGi bundle-symbolic-names to Maven coordinates",
+  "_updated": "November 2025",
+  "bundles": {
+    "aopalliance": {
+      "groupId": "aopalliance",
+      "artifactId": "aopalliance"
+    },
+    "biz.aQute.bnd": {
+      "groupId": "biz.aQute.bnd",
+      "artifactId": "biz.aQute.bnd"
+    },
+    "biz.aQute.bndlib": {
+      "groupId": "biz.aQute.bnd",
+      "artifactId": "biz.aQute.bndlib"
+    },
+    "biz.aQute.launcher": {
+      "groupId": "biz.aQute.bnd",
+      "artifactId": "biz.aQute.launcher"
+    },
+    "biz.aQute.junit": {
+      "groupId": "biz.aQute.bnd",
+      "artifactId": "biz.aQute.junit"
+    },
+    "com.bigdata.rdf": {
+      "groupId": "com.blazegraph",
+      "artifactId": "bigdata-core"
+    },
+    "com.fasterxml.jackson.core.jackson-annotations": {
+      "groupId": "com.fasterxml.jackson.core",
+      "artifactId": "jackson-annotations"
+    },
+    "com.fasterxml.jackson.core.jackson-core": {
+      "groupId": "com.fasterxml.jackson.core",
+      "artifactId": "jackson-core"
+    },
+    "com.fasterxml.jackson.core.jackson-databind": {
+      "groupId": "com.fasterxml.jackson.core",
+      "artifactId": "jackson-databind"
+    },
+    "com.fasterxml.jackson.jaxrs.jackson-jaxrs-base": {
+      "groupId": "com.fasterxml.jackson.jaxrs",
+      "artifactId": "jackson-jaxrs-base"
+    },
+    "com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider": {
+      "groupId": "com.fasterxml.jackson.jaxrs",
+      "artifactId": "jackson-jaxrs-json-provider"
+    },
+    "com.fasterxml.jackson.module.jackson-module-jaxb-annotations": {
+      "groupId": "com.fasterxml.jackson.module",
+      "artifactId": "jackson-module-jaxb-annotations"
+    },
+    "com.github.andrewoma.dexx.collection": {
+      "groupId": "com.github.andrewoma.dexx",
+      "artifactId": "collection"
+    },
+    "com.github.jsonld-java": {
+      "groupId": "com.github.jsonld-java",
+      "artifactId": "jsonld-java"
+    },
+    "com.google.gson": {
+      "groupId": "com.google.code.gson",
+      "artifactId": "gson"
+    },
+    "com.google.guava": {
+      "groupId": "com.google.guava",
+      "artifactId": "guava"
+    },
+    "com.hazelcast": {
+      "groupId": "com.hazelcast",
+      "artifactId": "hazelcast"
+    },
+    "com.mysql.jdbc": {
+      "groupId": "com.mysql",
+      "artifactId": "mysql-connector-j"
+    },
+    "com.springsource.com.thoughtworks.xstream": {
+      "groupId": "com.thoughtworks.xstream",
+      "artifactId": "xstream"
+    },
+    "com.springsource.javax.activation": {
+      "groupId": "javax.activation",
+      "artifactId": "activation"
+    },
+    "com.springsource.javax.ejb": {
+      "groupId": "javax.ejb",
+      "artifactId": "ejb-api"
+    },
+    "com.springsource.javax.jms": {
+      "groupId": "javax.jms",
+      "artifactId": "jms-api"
+    },
+    "com.springsource.javax.management.j2ee": {
+      "groupId": "javax.management.j2ee",
+      "artifactId": "javax.management.j2ee-api"
+    },
+    "com.springsource.javax.resource": {
+      "groupId": "javax.resource",
+      "artifactId": "javax.resource-api"
+    },
+    "com.springsource.javax.xml.bind": {
+      "groupId": "javax.xml.bind",
+      "artifactId": "jaxb-api"
+    },
+    "com.springsource.javax.xml.crypto": {
+      "_note": "Old SpringSource bundle - not on Maven Central",
+      "local": true
+    },
+    "com.springsource.javax.xml.rpc": {
+      "groupId": "javax.xml",
+      "artifactId": "jaxrpc-api"
+    },
+    "com.springsource.javax.xml.soap": {
+      "groupId": "javax.xml.soap",
+      "artifactId": "javax.xml.soap-api"
+    },
+    "com.springsource.javax.xml.ws": {
+      "groupId": "javax.xml.ws",
+      "artifactId": "jaxws-api"
+    },
+    "com.springsource.net.sf.cglib": {
+      "groupId": "cglib",
+      "artifactId": "cglib"
+    },
+    "com.springsource.org.hamcrest.core": {
+      "groupId": "org.hamcrest",
+      "artifactId": "hamcrest-core"
+    },
+    "com.springsource.org.junit": {
+      "groupId": "junit",
+      "artifactId": "junit"
+    },
+    "com.springsource.org.xmlpull": {
+      "groupId": "xmlpull",
+      "artifactId": "xmlpull"
+    },
+    "gson-extras": {
+      "_note": "Not on Maven Central",
+      "local": true
+    },
+    "httpclient": {
+      "groupId": "org.apache.httpcomponents",
+      "artifactId": "httpclient"
+    },
+    "httpcore": {
+      "groupId": "org.apache.httpcomponents",
+      "artifactId": "httpcore"
+    },
+    "javassist": {
+      "groupId": "org.javassist",
+      "artifactId": "javassist"
+    },
+    "javax.annotation": {
+      "groupId": "javax.annotation",
+      "artifactId": "javax.annotation-api"
+    },
+    "javax.annotation-api": {
+      "groupId": "javax.annotation",
+      "artifactId": "javax.annotation-api"
+    },
+    "javax.inject": {
+      "groupId": "javax.inject",
+      "artifactId": "javax.inject"
+    },
+    "javax.jms-api": {
+      "groupId": "javax.jms",
+      "artifactId": "javax.jms-api"
+    },
+    "javax.management.j2ee-api": {
+      "groupId": "javax.management.j2ee",
+      "artifactId": "javax.management.j2ee-api"
+    },
+    "javax.ws.rs-api": {
+      "groupId": "javax.ws.rs",
+      "artifactId": "javax.ws.rs-api"
+    },
+    "jakarta.ws.rs-api": {
+      "groupId": "jakarta.ws.rs",
+      "artifactId": "jakarta.ws.rs-api"
+    },
+    "jena-arq": {
+      "groupId": "org.apache.jena",
+      "artifactId": "jena-arq"
+    },
+    "jena-core": {
+      "groupId": "org.apache.jena",
+      "artifactId": "jena-core"
+    },
+    "junit": {
+      "groupId": "junit",
+      "artifactId": "junit"
+    },
+    "org.junit.jupiter.api": {
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter-api"
+    },
+    "org.junit.jupiter.engine": {
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter-engine"
+    },
+    "org.junit.jupiter.params": {
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter-params"
+    },
+    "org.junit.platform.commons": {
+      "groupId": "org.junit.platform",
+      "artifactId": "junit-platform-commons"
+    },
+    "org.junit.platform.engine": {
+      "groupId": "org.junit.platform",
+      "artifactId": "junit-platform-engine"
+    },
+    "org.junit.platform.launcher": {
+      "groupId": "org.junit.platform",
+      "artifactId": "junit-platform-launcher"
+    },
+    "org.junit.vintage.engine": {
+      "groupId": "org.junit.vintage",
+      "artifactId": "junit-vintage-engine"
+    },
+    "org.opentest4j": {
+      "groupId": "org.opentest4j",
+      "artifactId": "opentest4j"
+    },
+    "org.apache.activemq.activemq-blueprint": {
+      "groupId": "org.apache.activemq",
+      "artifactId": "activemq-blueprint"
+    },
+    "org.apache.activemq.activemq-client": {
+      "groupId": "org.apache.activemq",
+      "artifactId": "activemq-client"
+    },
+    "org.apache.activemq.activemq-osgi": {
+      "groupId": "org.apache.activemq",
+      "artifactId": "activemq-osgi"
+    },
+    "org.apache.activemq.shiro": {
+      "groupId": "org.apache.activemq",
+      "artifactId": "activemq-shiro"
+    },
+    "org.apache.aries.blueprint": {
+      "groupId": "org.apache.aries.blueprint",
+      "artifactId": "org.apache.aries.blueprint"
+    },
+    "org.apache.aries.blueprint.annotation.api": {
+      "groupId": "org.apache.aries.blueprint",
+      "artifactId": "org.apache.aries.blueprint.annotation.api"
+    },
+    "org.apache.aries.blueprint.api": {
+      "groupId": "org.apache.aries.blueprint",
+      "artifactId": "org.apache.aries.blueprint.api"
+    },
+    "org.apache.aries.blueprint.cm": {
+      "groupId": "org.apache.aries.blueprint",
+      "artifactId": "org.apache.aries.blueprint.cm"
+    },
+    "org.apache.aries.blueprint.core": {
+      "groupId": "org.apache.aries.blueprint",
+      "artifactId": "org.apache.aries.blueprint.core"
+    },
+    "org.apache.aries.proxy.api": {
+      "groupId": "org.apache.aries.proxy",
+      "artifactId": "org.apache.aries.proxy.api"
+    },
+    "org.apache.aries.proxy.impl": {
+      "groupId": "org.apache.aries.proxy",
+      "artifactId": "org.apache.aries.proxy.impl"
+    },
+    "org.apache.aries.quiesce.api": {
+      "groupId": "org.apache.aries.quiesce",
+      "artifactId": "org.apache.aries.quiesce.api"
+    },
+    "org.apache.aries.util": {
+      "groupId": "org.apache.aries",
+      "artifactId": "org.apache.aries.util"
+    },
+    "org.apache.commons.codec": {
+      "groupId": "commons-codec",
+      "artifactId": "commons-codec"
+    },
+    "org.apache.commons.csv": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-csv"
+    },
+    "org.apache.commons.io": {
+      "groupId": "commons-io",
+      "artifactId": "commons-io"
+    },
+    "org.apache.commons.lang3": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-lang3"
+    },
+    "org.apache.commons.math3": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-math3"
+    },
+    "org.apache.commons.pool": {
+      "groupId": "commons-pool",
+      "artifactId": "commons-pool"
+    },
+    "org.apache.commons.pool2": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-pool2"
+    },
+    "org.apache.commons.collections4": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-collections4"
+    },
+    "org.apache.commons.dbcp": {
+      "groupId": "commons-dbcp",
+      "artifactId": "commons-dbcp"
+    },
+    "org.apache.felix.configadmin": {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.configadmin"
+    },
+    "org.apache.felix.dependencymanager": {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.dependencymanager"
+    },
+    "org.apache.felix.dependencymanager.annotation": {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.dependencymanager.annotation"
+    },
+    "org.apache.felix.dependencymanager.runtime": {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.dependencymanager.runtime"
+    },
+    "org.apache.felix.dependencymanager.shell": {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.dependencymanager.shell"
+    },
+    "org.apache.felix.eventadmin": {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.eventadmin"
+    },
+    "org.apache.felix.framework": {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.framework"
+    },
+    "org.apache.felix.gogo.command": {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.gogo.command"
+    },
+    "org.apache.felix.gogo.runtime": {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.gogo.runtime"
+    },
+    "org.apache.felix.gogo.shell": {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.gogo.shell"
+    },
+    "org.apache.felix.http.bundle": {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.http.bundle"
+    },
+    "org.apache.felix.http.servlet-api": {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.http.servlet-api"
+    },
+    "org.apache.felix.http.whiteboard": {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.http.whiteboard"
+    },
+    "org.apache.felix.log": {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.log"
+    },
+    "org.apache.felix.scr": {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.scr"
+    },
+    "org.apache.geronimo.components.geronimo-transaction": {
+      "groupId": "org.apache.geronimo.components",
+      "artifactId": "geronimo-transaction"
+    },
+    "org.apache.geronimo.specs.geronimo-jms_1.1_spec": {
+      "groupId": "org.apache.geronimo.specs",
+      "artifactId": "geronimo-jms_1.1_spec"
+    },
+    "org.apache.geronimo.specs.geronimo-jta_1.1_spec": {
+      "groupId": "org.apache.geronimo.specs",
+      "artifactId": "geronimo-jta_1.1_spec"
+    },
+    "org.apache.httpcomponents.httpclient": {
+      "groupId": "org.apache.httpcomponents",
+      "artifactId": "httpclient-osgi"
+    },
+    "org.apache.httpcomponents.httpcore": {
+      "groupId": "org.apache.httpcomponents",
+      "artifactId": "httpcore-osgi"
+    },
+    "org.apache.httpcomponents.client5.httpclient5": {
+      "groupId": "org.apache.httpcomponents.client5",
+      "artifactId": "httpclient5"
+    },
+    "org.apache.jena.osgi": {
+      "groupId": "org.apache.jena",
+      "artifactId": "jena-osgi"
+    },
+    "org.apache.servicemix.bundles.commons-dbcp": {
+      "groupId": "org.apache.servicemix.bundles",
+      "artifactId": "org.apache.servicemix.bundles.commons-dbcp"
+    },
+    "org.apache.servicemix.bundles.xerces": {
+      "groupId": "org.apache.servicemix.bundles",
+      "artifactId": "org.apache.servicemix.bundles.xerces"
+    },
+    "org.apache.servicemix.bundles.xmlresolver": {
+      "groupId": "org.apache.servicemix.bundles",
+      "artifactId": "org.apache.servicemix.bundles.xmlresolver"
+    },
+    "org.apache.shiro.cache": {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-cache"
+    },
+    "org.apache.shiro.core": {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-core"
+    },
+    "org.apache.shiro.crypto.cipher": {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-crypto-cipher"
+    },
+    "org.apache.shiro.crypto.hash": {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-crypto-hash"
+    },
+    "org.apache.shiro.event": {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-event"
+    },
+    "org.apache.shiro.web": {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-web"
+    },
+    "org.apache.thrift": {
+      "groupId": "org.apache.thrift",
+      "artifactId": "libthrift"
+    },
+    "org.apache.xbean.spring": {
+      "groupId": "org.apache.xbean",
+      "artifactId": "xbean-spring"
+    },
+    "org.assertj.core": {
+      "groupId": "org.assertj",
+      "artifactId": "assertj-core"
+    },
+    "org.eclipse.jetty.aggregate.jetty-all-server": {
+      "groupId": "org.eclipse.jetty.aggregate",
+      "artifactId": "jetty-all"
+    },
+    "org.fusesource.hawtbuf.hawtbuf": {
+      "groupId": "org.fusesource.hawtbuf",
+      "artifactId": "hawtbuf"
+    },
+    "org.fusesource.hawtdispatch.hawtdispatch": {
+      "groupId": "org.fusesource.hawtdispatch",
+      "artifactId": "hawtdispatch"
+    },
+    "org.fusesource.hawtdispatch.hawtdispatch-transport": {
+      "groupId": "org.fusesource.hawtdispatch",
+      "artifactId": "hawtdispatch-transport"
+    },
+    "org.fusesource.stompjms.stompjms-client": {
+      "groupId": "org.fusesource.stompjms",
+      "artifactId": "stompjms-client"
+    },
+    "org.glassfish.hk2.api": {
+      "groupId": "org.glassfish.hk2",
+      "artifactId": "hk2-api"
+    },
+    "org.glassfish.hk2.external.javax.inject": {
+      "groupId": "javax.inject",
+      "artifactId": "javax.inject"
+    },
+    "org.glassfish.hk2.locator": {
+      "groupId": "org.glassfish.hk2",
+      "artifactId": "hk2-locator"
+    },
+    "org.glassfish.hk2.osgi-resource-locator": {
+      "groupId": "org.glassfish.hk2",
+      "artifactId": "osgi-resource-locator"
+    },
+    "org.glassfish.hk2.utils": {
+      "groupId": "org.glassfish.hk2",
+      "artifactId": "hk2-utils"
+    },
+    "org.glassfish.javax.ejb": {
+      "groupId": "org.glassfish",
+      "artifactId": "javax.ejb"
+    },
+    "org.glassfish.jersey.bundles.repackaged.jersey-guava": {
+      "groupId": "org.glassfish.jersey.bundles.repackaged",
+      "artifactId": "jersey-guava"
+    },
+    "org.glassfish.jersey.core.jersey-client": {
+      "groupId": "org.glassfish.jersey.core",
+      "artifactId": "jersey-client"
+    },
+    "org.glassfish.jersey.core.jersey-common": {
+      "groupId": "org.glassfish.jersey.core",
+      "artifactId": "jersey-common"
+    },
+    "org.glassfish.jersey.core.jersey-server": {
+      "groupId": "org.glassfish.jersey.core",
+      "artifactId": "jersey-server"
+    },
+    "org.glassfish.jersey.ext.jersey-entity-filtering": {
+      "groupId": "org.glassfish.jersey.ext",
+      "artifactId": "jersey-entity-filtering"
+    },
+    "org.glassfish.jersey.inject.jersey-hk2": {
+      "groupId": "org.glassfish.jersey.inject",
+      "artifactId": "jersey-hk2"
+    },
+    "org.glassfish.jersey.media.jersey-media-json-jackson": {
+      "groupId": "org.glassfish.jersey.media",
+      "artifactId": "jersey-media-json-jackson"
+    },
+    "org.glassfish.main.transaction.javax.transaction": {
+      "groupId": "javax.transaction",
+      "artifactId": "javax.transaction-api"
+    },
+    "org.h2": {
+      "groupId": "com.h2database",
+      "artifactId": "h2"
+    },
+    "org.mockito.mockito-core": {
+      "groupId": "org.mockito",
+      "artifactId": "mockito-core"
+    },
+    "org.mockito.mockito-junit-jupiter": {
+      "groupId": "org.mockito",
+      "artifactId": "mockito-junit-jupiter"
+    },
+    "org.mongodb.mongo-java-driver": {
+      "groupId": "org.mongodb",
+      "artifactId": "mongo-java-driver"
+    },
+    "org.objectweb.asm": {
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm"
+    },
+    "org.objectweb.asm.all": {
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm-all"
+    },
+    "org.objenesis": {
+      "groupId": "org.objenesis",
+      "artifactId": "objenesis"
+    },
+    "org.ops4j.pax.logging.pax-logging-api": {
+      "groupId": "org.ops4j.pax.logging",
+      "artifactId": "pax-logging-api"
+    },
+    "org.ops4j.pax.logging.pax-logging-service": {
+      "groupId": "org.ops4j.pax.logging",
+      "artifactId": "pax-logging-service"
+    },
+    "org.osgi.core": {
+      "groupId": "org.osgi",
+      "artifactId": "osgi.core"
+    },
+    "osgi.core": {
+      "groupId": "org.osgi",
+      "artifactId": "osgi.core"
+    },
+    "org.osgi.cmpn": {
+      "groupId": "org.osgi",
+      "artifactId": "osgi.cmpn"
+    },
+    "osgi.cmpn": {
+      "groupId": "org.osgi",
+      "artifactId": "osgi.cmpn"
+    },
+    "org.osgi.enterprise": {
+      "groupId": "org.osgi",
+      "artifactId": "osgi.enterprise"
+    },
+    "osgi.enterprise": {
+      "groupId": "org.osgi",
+      "artifactId": "osgi.enterprise"
+    },
+    "org.osgi.service.metatype": {
+      "groupId": "org.osgi",
+      "artifactId": "org.osgi.service.metatype"
+    },
+    "org.slf4j.api": {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-api"
+    },
+    "slf4j.api": {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-api"
+    },
+    "org.slf4j.simple": {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-simple"
+    },
+    "slf4j.simple": {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-simple"
+    },
+    "org.springframework.aop": {
+      "groupId": "org.springframework",
+      "artifactId": "spring-aop"
+    },
+    "org.springframework.beans": {
+      "groupId": "org.springframework",
+      "artifactId": "spring-beans"
+    },
+    "org.springframework.context": {
+      "groupId": "org.springframework",
+      "artifactId": "spring-context"
+    },
+    "org.springframework.core": {
+      "groupId": "org.springframework",
+      "artifactId": "spring-core"
+    },
+    "org.springframework.expression": {
+      "groupId": "org.springframework",
+      "artifactId": "spring-expression"
+    },
+    "proven-client": {
+      "_note": "PNNL custom artifact",
+      "local": true
+    },
+    "proven-client-0.1-sources": {
+      "_note": "PNNL custom artifact",
+      "local": true
+    },
+    "proven-message": {
+      "_note": "PNNL custom artifact",
+      "local": true
+    },
+    "proven-message-all-in-one": {
+      "_note": "PNNL custom artifact",
+      "local": true
+    },
+    "shacl": {
+      "groupId": "org.topbraid",
+      "artifactId": "shacl"
+    },
+    "spring-aop": {
+      "groupId": "org.springframework",
+      "artifactId": "spring-aop"
+    },
+    "xml-apis": {
+      "groupId": "xml-apis",
+      "artifactId": "xml-apis"
+    },
+    "org.amdatu.testing.configurator": {
+      "_note": "Amdatu testing - repository no longer available",
+      "local": true
+    },
+    "org.amdatu.configurator.api": {
+      "_note": "Amdatu configurator - repository no longer available",
+      "local": true
+    },
+    "org.amdatu.configurator.autoconf": {
+      "_note": "Amdatu configurator - repository no longer available",
+      "local": true
+    },
+    "org.amdatu.configurator.properties": {
+      "_note": "Amdatu configurator - repository no longer available",
+      "local": true
+    },
+    "org.amdatu.configurator.shell": {
+      "_note": "Amdatu configurator - repository no longer available",
+      "local": true
+    }
+  },
+  "additionalDownloads": [
+    {
+      "_comment": "OSGi Core Specifications",
+      "groupId": "org.osgi",
+      "artifactId": "osgi.core",
+      "version": "8.0.0",
+      "folder": "osgi"
+    },
+    {
+      "groupId": "org.osgi",
+      "artifactId": "osgi.cmpn",
+      "version": "7.0.0",
+      "folder": "osgi"
+    },
+    {
+      "groupId": "org.osgi",
+      "artifactId": "osgi.enterprise",
+      "version": "7.0.0",
+      "folder": "osgi"
+    },
+    {
+      "_comment": "Felix Services",
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.configadmin",
+      "version": "1.9.26",
+      "folder": "felix"
+    },
+    {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.scr",
+      "version": "2.2.12",
+      "folder": "felix"
+    },
+    {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.eventadmin",
+      "version": "1.6.4",
+      "folder": "felix"
+    },
+    {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.log",
+      "version": "1.3.0",
+      "folder": "felix"
+    },
+    {
+      "_comment": "SLF4J - Stable versions",
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-api",
+      "version": "2.0.16",
+      "folder": "logging"
+    },
+    {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-simple",
+      "version": "2.0.16",
+      "folder": "logging"
+    },
+    {
+      "_comment": "Shiro Security Modules - Latest stable 1.x",
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-core",
+      "version": "1.13.0",
+      "folder": "shiro"
+    },
+    {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-web",
+      "version": "1.13.0",
+      "folder": "shiro"
+    },
+    {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-cache",
+      "version": "1.13.0",
+      "folder": "shiro"
+    },
+    {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-event",
+      "version": "1.13.0",
+      "folder": "shiro"
+    },
+    {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-crypto-hash",
+      "version": "1.13.0",
+      "folder": "shiro"
+    },
+    {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-crypto-cipher",
+      "version": "1.13.0",
+      "folder": "shiro"
+    },
+    {
+      "_comment": "ActiveMQ - Latest stable 5.x",
+      "groupId": "org.apache.activemq",
+      "artifactId": "activemq-osgi",
+      "version": "5.18.6",
+      "folder": "activemq"
+    },
+    {
+      "groupId": "org.apache.activemq",
+      "artifactId": "activemq-client",
+      "version": "5.18.6",
+      "folder": "activemq"
+    },
+    {
+      "groupId": "org.apache.activemq",
+      "artifactId": "activemq-shiro",
+      "version": "5.18.6",
+      "folder": "activemq"
+    },
+    {
+      "_comment": "BND Testing Tools",
+      "groupId": "biz.aQute.bnd",
+      "artifactId": "biz.aQute.launcher",
+      "version": "7.0.0",
+      "folder": "bnd"
+    },
+    {
+      "groupId": "biz.aQute.bnd",
+      "artifactId": "biz.aQute.junit",
+      "version": "7.0.0",
+      "folder": "bnd"
+    },
+    {
+      "_comment": "JUnit 5 - Latest stable",
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter-api",
+      "version": "5.11.3",
+      "folder": "testing"
+    },
+    {
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter-engine",
+      "version": "5.11.3",
+      "folder": "testing"
+    },
+    {
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter-params",
+      "version": "5.11.3",
+      "folder": "testing"
+    },
+    {
+      "groupId": "org.junit.platform",
+      "artifactId": "junit-platform-commons",
+      "version": "1.11.3",
+      "folder": "testing"
+    },
+    {
+      "groupId": "org.junit.platform",
+      "artifactId": "junit-platform-engine",
+      "version": "1.11.3",
+      "folder": "testing"
+    },
+    {
+      "groupId": "org.junit.platform",
+      "artifactId": "junit-platform-launcher",
+      "version": "1.11.3",
+      "folder": "testing"
+    },
+    {
+      "groupId": "org.junit.vintage",
+      "artifactId": "junit-vintage-engine",
+      "version": "5.11.3",
+      "folder": "testing"
+    },
+    {
+      "groupId": "org.opentest4j",
+      "artifactId": "opentest4j",
+      "version": "1.3.0",
+      "folder": "testing"
+    },
+    {
+      "groupId": "junit",
+      "artifactId": "junit",
+      "version": "4.13.2",
+      "folder": "testing"
+    },
+    {
+      "_comment": "Mockito - Latest stable",
+      "groupId": "org.mockito",
+      "artifactId": "mockito-core",
+      "version": "5.14.2",
+      "folder": "testing"
+    },
+    {
+      "groupId": "org.mockito",
+      "artifactId": "mockito-junit-jupiter",
+      "version": "5.14.2",
+      "folder": "testing"
+    },
+    {
+      "_comment": "Mockito dependencies - byte-buddy and objenesis",
+      "groupId": "net.bytebuddy",
+      "artifactId": "byte-buddy",
+      "version": "1.15.10",
+      "folder": "testing"
+    },
+    {
+      "groupId": "net.bytebuddy",
+      "artifactId": "byte-buddy-agent",
+      "version": "1.15.10",
+      "folder": "testing"
+    },
+    {
+      "groupId": "org.objenesis",
+      "artifactId": "objenesis",
+      "version": "3.4",
+      "folder": "testing"
+    },
+    {
+      "groupId": "org.assertj",
+      "artifactId": "assertj-core",
+      "version": "3.26.3",
+      "folder": "testing"
+    },
+    {
+      "_comment": "Commons - Pinned stable versions",
+      "groupId": "commons-io",
+      "artifactId": "commons-io",
+      "version": "2.18.0",
+      "folder": "commons"
+    },
+    {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-lang3",
+      "version": "3.17.0",
+      "folder": "commons"
+    },
+    {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-pool2",
+      "version": "2.12.0",
+      "folder": "commons"
+    },
+    {
+      "groupId": "commons-dbcp",
+      "artifactId": "commons-dbcp",
+      "version": "1.4",
+      "folder": "commons"
+    },
+    {
+      "_comment": "Jackson JSON - Latest stable 2.x",
+      "groupId": "com.fasterxml.jackson.core",
+      "artifactId": "jackson-core",
+      "version": "2.18.1",
+      "folder": "jackson"
+    },
+    {
+      "groupId": "com.fasterxml.jackson.core",
+      "artifactId": "jackson-annotations",
+      "version": "2.18.1",
+      "folder": "jackson"
+    },
+    {
+      "groupId": "com.fasterxml.jackson.core",
+      "artifactId": "jackson-databind",
+      "version": "2.18.1",
+      "folder": "jackson"
+    },
+    {
+      "groupId": "com.fasterxml.jackson.jaxrs",
+      "artifactId": "jackson-jaxrs-base",
+      "version": "2.18.1",
+      "folder": "jackson"
+    },
+    {
+      "groupId": "com.fasterxml.jackson.jaxrs",
+      "artifactId": "jackson-jaxrs-json-provider",
+      "version": "2.18.1",
+      "folder": "jackson"
+    },
+    {
+      "_comment": "HTTP Client",
+      "groupId": "org.apache.httpcomponents",
+      "artifactId": "httpclient",
+      "version": "4.5.14",
+      "folder": "http"
+    },
+    {
+      "groupId": "org.apache.httpcomponents",
+      "artifactId": "httpcore",
+      "version": "4.4.16",
+      "folder": "http"
+    },
+    {
+      "_comment": "Jakarta/Javax APIs",
+      "groupId": "jakarta.ws.rs",
+      "artifactId": "jakarta.ws.rs-api",
+      "version": "4.0.0",
+      "folder": "jakarta"
+    },
+    {
+      "groupId": "javax.annotation",
+      "artifactId": "javax.annotation-api",
+      "version": "1.3.2",
+      "folder": "javax"
+    },
+    {
+      "groupId": "javax.jms",
+      "artifactId": "javax.jms-api",
+      "version": "2.0.1",
+      "folder": "javax"
+    },
+    {
+      "_comment": "Gson",
+      "groupId": "com.google.code.gson",
+      "artifactId": "gson",
+      "version": "2.11.0",
+      "folder": "google"
+    },
+    {
+      "_comment": "StompJMS",
+      "groupId": "org.fusesource.stompjms",
+      "artifactId": "stompjms-client",
+      "version": "1.19",
+      "folder": "stomp"
+    },
+    {
+      "_comment": "Spring Framework - Latest stable 6.x for Java 21",
+      "groupId": "org.springframework",
+      "artifactId": "spring-beans",
+      "version": "6.2.0",
+      "folder": "spring"
+    },
+    {
+      "groupId": "org.springframework",
+      "artifactId": "spring-context",
+      "version": "6.2.0",
+      "folder": "spring"
+    },
+    {
+      "groupId": "org.springframework",
+      "artifactId": "spring-core",
+      "version": "6.2.0",
+      "folder": "spring"
+    },
+    {
+      "groupId": "org.springframework",
+      "artifactId": "spring-aop",
+      "version": "6.2.0",
+      "folder": "spring"
+    },
+    {
+      "groupId": "org.springframework",
+      "artifactId": "spring-expression",
+      "version": "6.2.0",
+      "folder": "spring"
+    },
+    {
+      "_comment": "XStream",
+      "groupId": "com.thoughtworks.xstream",
+      "artifactId": "xstream",
+      "version": "1.4.20",
+      "folder": "serialization"
+    },
+    {
+      "_comment": "=== OLD VERSIONS FOR BACKWARDS COMPATIBILITY ===",
+      "_note": "These older versions are required by existing GridAPPS-D deployments using run.bnd.bndrun"
+    },
+    {
+      "_comment": "Old Felix ConfigAdmin for run.bnd.bndrun",
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.configadmin",
+      "version": "1.8.0",
+      "folder": "org.apache.felix.configadmin",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Old Felix Gogo Runtime for run.bnd.bndrun",
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.gogo.runtime",
+      "version": "0.12.1",
+      "folder": "org.apache.felix.gogo.runtime",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Old HttpClient for run.bnd.bndrun",
+      "groupId": "org.apache.httpcomponents",
+      "artifactId": "httpclient",
+      "version": "4.5",
+      "folder": "org.apache.httpcomponents.httpclient",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Old Felix HTTP Jetty for run.bnd.bndrun",
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.http.jetty",
+      "version": "2.2.2",
+      "folder": "org.apache.felix.http.jetty",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Old Felix SCR for run.bnd.bndrun",
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.scr",
+      "version": "2.2.0",
+      "folder": "org.apache.felix.scr",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Old OSGi CMPN for run.bnd.bndrun",
+      "groupId": "org.osgi",
+      "artifactId": "osgi.cmpn",
+      "version": "5.0.0",
+      "folder": "osgi.cmpn",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Old OSGi Enterprise for run.bnd.bndrun",
+      "groupId": "org.osgi",
+      "artifactId": "org.osgi.enterprise",
+      "version": "4.2.0",
+      "folder": "osgi.enterprise",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "OSGi Residential from BND Hub",
+      "groupId": "org.osgi",
+      "artifactId": "osgi.residential",
+      "version": "4.3.0",
+      "folder": "osgi.residential",
+      "source": "BND Hub"
+    },
+    {
+      "_comment": "=== GOSS BUILD DEPENDENCIES ===",
+      "_note": "Dependencies required by GOSS develop branch"
+    },
+    {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.dependencymanager.annotation",
+      "version": "4.2.1",
+      "folder": "org.apache.felix.dependencymanager.annotation",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.dependencymanager.annotation",
+      "version": "5.0.2",
+      "folder": "org.apache.felix.dependencymanager.annotation",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.dependencymanager.runtime",
+      "version": "4.0.6",
+      "folder": "org.apache.felix.dependencymanager.runtime",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.dependencymanager.shell",
+      "version": "4.0.8",
+      "folder": "org.apache.felix.dependencymanager.shell",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.http.servlet-api",
+      "version": "3.0.0",
+      "folder": "org.apache.felix.http.servlet-api",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.httpcomponents.client5",
+      "artifactId": "httpclient5",
+      "version": "5.4",
+      "folder": "org.apache.httpcomponents.client5.httpclient5",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "javax.xml.bind",
+      "artifactId": "jaxb-api",
+      "version": "2.3.1",
+      "folder": "javax.xml.bind",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "=== GOSS JAVA 21 + JAKARTA EE DEPENDENCIES ===",
+      "_note": "Dependencies required by GOSS 8.0.0/3.0.0 - Java 21 + Jakarta EE migration"
+    },
+    {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.framework",
+      "version": "7.0.5",
+      "folder": "org.apache.felix.framework",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.main",
+      "version": "7.0.5",
+      "folder": "org.apache.felix.main",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.gogo.runtime",
+      "version": "1.1.6",
+      "folder": "org.apache.felix.gogo.runtime",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.gogo.shell",
+      "version": "1.1.4",
+      "folder": "org.apache.felix.gogo.shell",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.gogo.command",
+      "version": "1.1.2",
+      "folder": "org.apache.felix.gogo.command",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "ActiveMQ 6.2.0 with Jakarta JMS",
+      "groupId": "org.apache.activemq",
+      "artifactId": "activemq-osgi",
+      "version": "6.2.0",
+      "folder": "activemq",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.activemq",
+      "artifactId": "activemq-shiro",
+      "version": "6.2.0",
+      "folder": "activemq",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Shiro 2.0.0",
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-lang",
+      "version": "2.0.0",
+      "folder": "shiro",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-crypto-core",
+      "version": "2.0.0",
+      "folder": "shiro",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-config-core",
+      "version": "2.0.0",
+      "folder": "shiro",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-config-ogdl",
+      "version": "2.0.0",
+      "folder": "shiro",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Jakarta EE APIs - Java 21 compatible",
+      "groupId": "jakarta.jms",
+      "artifactId": "jakarta.jms-api",
+      "version": "3.1.0",
+      "folder": "jakarta",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "jakarta.annotation",
+      "artifactId": "jakarta.annotation-api",
+      "version": "2.1.1",
+      "folder": "jakarta",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "jakarta.resource",
+      "artifactId": "jakarta.resource-api",
+      "version": "2.1.0",
+      "folder": "jakarta",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "jakarta.transaction",
+      "artifactId": "jakarta.transaction-api",
+      "version": "2.0.1",
+      "folder": "jakarta",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "jakarta.inject",
+      "artifactId": "jakarta.inject-api",
+      "version": "2.0.1",
+      "folder": "jakarta",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "jakarta.xml.bind",
+      "artifactId": "jakarta.xml.bind-api",
+      "version": "4.0.2",
+      "folder": "jakarta",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "jakarta.activation",
+      "artifactId": "jakarta.activation-api",
+      "version": "2.1.3",
+      "folder": "jakarta",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "HTTP Components OSGi bundles",
+      "groupId": "org.apache.httpcomponents",
+      "artifactId": "httpclient-osgi",
+      "version": "4.5.14",
+      "folder": "http",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.httpcomponents",
+      "artifactId": "httpcore-osgi",
+      "version": "4.4.16",
+      "folder": "http",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Commons libraries",
+      "groupId": "commons-logging",
+      "artifactId": "commons-logging",
+      "version": "1.2",
+      "folder": "commons",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "H2 Database",
+      "groupId": "com.h2database",
+      "artifactId": "h2",
+      "version": "2.1.214",
+      "folder": "database",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Apache Aries SPI Fly - ServiceLoader support",
+      "groupId": "org.apache.aries.spifly",
+      "artifactId": "org.apache.aries.spifly.dynamic.framework.extension",
+      "version": "1.3.7",
+      "folder": "org.apache.aries.spifly",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.aries.spifly",
+      "artifactId": "org.apache.aries.spifly.dynamic.bundle",
+      "version": "1.3.7",
+      "folder": "org.apache.aries.spifly",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "ASM - required by SPI Fly",
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm",
+      "version": "9.7.1",
+      "folder": "org.ow2.asm",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm-commons",
+      "version": "9.7.1",
+      "folder": "org.ow2.asm",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm-util",
+      "version": "9.7.1",
+      "folder": "org.ow2.asm",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "OSGi utilities",
+      "groupId": "org.osgi",
+      "artifactId": "org.osgi.util.promise",
+      "version": "1.3.0",
+      "folder": "osgi",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.osgi",
+      "artifactId": "org.osgi.util.function",
+      "version": "1.2.0",
+      "folder": "osgi",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Felix SCR and ConfigAdmin",
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.scr",
+      "version": "2.2.12",
+      "folder": "org.apache.felix.scr",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.configadmin",
+      "version": "1.9.26",
+      "folder": "org.apache.felix.configadmin",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "SLF4J Simple",
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-simple",
+      "version": "2.0.16",
+      "folder": "logging",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Additional Shiro 2.0.0 modules",
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-core",
+      "version": "2.0.0",
+      "folder": "shiro",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-cache",
+      "version": "2.0.0",
+      "folder": "shiro",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-event",
+      "version": "2.0.0",
+      "folder": "shiro",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-crypto-hash",
+      "version": "2.0.0",
+      "folder": "shiro",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-crypto-cipher",
+      "version": "2.0.0",
+      "folder": "shiro",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Commons libraries",
+      "groupId": "commons-io",
+      "artifactId": "commons-io",
+      "version": "2.18.0",
+      "folder": "commons",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-pool2",
+      "version": "2.12.0",
+      "folder": "commons",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "XStream and Gson",
+      "groupId": "com.thoughtworks.xstream",
+      "artifactId": "xstream",
+      "version": "1.4.20",
+      "folder": "serialization",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "com.google.code.gson",
+      "artifactId": "gson",
+      "version": "2.11.0",
+      "folder": "serialization",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "=== GOSS-GridAPPS-D BUILD DEPENDENCIES ===",
+      "_note": "Dependencies required by GOSS-GridAPPS-D develop branch"
+    },
+    {
+      "groupId": "org.apache.felix",
+      "artifactId": "org.apache.felix.configadmin",
+      "version": "1.9.28",
+      "folder": "org.apache.felix.configadmin",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.shiro",
+      "artifactId": "shiro-core",
+      "version": "1.14.0",
+      "folder": "org.apache.shiro.core",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "com.fasterxml.jackson.module",
+      "artifactId": "jackson-module-jaxb-annotations",
+      "version": "2.18.1",
+      "folder": "com.fasterxml.jackson.module.jackson-module-jaxb-annotations",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-csv",
+      "version": "1.12.0",
+      "folder": "org.apache.commons.csv",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-collections4",
+      "version": "4.5.0",
+      "folder": "org.apache.commons.commons-collections4",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "commons-codec",
+      "artifactId": "commons-codec",
+      "version": "1.17.1",
+      "folder": "org.apache.commons.codec",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.hamcrest",
+      "artifactId": "hamcrest-core",
+      "version": "2.2",
+      "folder": "org.hamcrest.core",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Jersey REST Framework",
+      "groupId": "org.glassfish.jersey.core",
+      "artifactId": "jersey-client",
+      "version": "2.45",
+      "folder": "org.glassfish.jersey.core.jersey-client",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.glassfish.jersey.core",
+      "artifactId": "jersey-common",
+      "version": "2.45",
+      "folder": "org.glassfish.jersey.core.jersey-common",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.glassfish.jersey.core",
+      "artifactId": "jersey-server",
+      "version": "2.45",
+      "folder": "org.glassfish.jersey.core.jersey-server",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.glassfish.jersey.inject",
+      "artifactId": "jersey-hk2",
+      "version": "2.45",
+      "folder": "org.glassfish.jersey.inject.jersey-hk2",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.glassfish.jersey.media",
+      "artifactId": "jersey-media-json-jackson",
+      "version": "2.45",
+      "folder": "org.glassfish.jersey.media.jersey-media-json-jackson",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "HK2 Dependency Injection",
+      "groupId": "org.glassfish.hk2",
+      "artifactId": "hk2-api",
+      "version": "2.6.1",
+      "folder": "org.glassfish.hk2.api",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.glassfish.hk2",
+      "artifactId": "hk2-locator",
+      "version": "2.6.1",
+      "folder": "org.glassfish.hk2.locator",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.glassfish.hk2",
+      "artifactId": "hk2-utils",
+      "version": "2.6.1",
+      "folder": "org.glassfish.hk2.utils",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.glassfish.hk2",
+      "artifactId": "osgi-resource-locator",
+      "version": "1.0.3",
+      "folder": "org.glassfish.hk2.osgi-resource-locator",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Other dependencies",
+      "groupId": "com.google.guava",
+      "artifactId": "guava",
+      "version": "33.3.1-jre",
+      "folder": "com.google.guava",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "com.mysql",
+      "artifactId": "mysql-connector-j",
+      "version": "9.1.0",
+      "folder": "com.mysql.jdbc",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Apache Jena for RDF/SPARQL",
+      "groupId": "org.apache.jena",
+      "artifactId": "jena-osgi",
+      "version": "5.2.0",
+      "folder": "org.apache.jena.osgi",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.jena",
+      "artifactId": "jena-core",
+      "version": "5.2.0",
+      "folder": "org.apache.jena.core",
+      "source": "Maven Central"
+    },
+    {
+      "groupId": "org.apache.jena",
+      "artifactId": "jena-arq",
+      "version": "5.2.0",
+      "folder": "org.apache.jena.arq",
+      "source": "Maven Central"
+    },
+    {
+      "_comment": "Apache Thrift",
+      "groupId": "org.apache.thrift",
+      "artifactId": "libthrift",
+      "version": "0.21.0",
+      "folder": "org.apache.thrift",
+      "source": "Maven Central"
+    }
+  ]
+}
