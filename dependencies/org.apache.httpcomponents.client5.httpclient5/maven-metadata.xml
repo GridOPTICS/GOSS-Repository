@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.httpcomponents.client5</groupId>
+  <artifactId>httpclient5</artifactId>
+  <versioning>
+    <latest>httpclient5-5.4</latest>
+    <release>httpclient5-5.4</release>
+    <versions>
+      <version>httpclient5-5.4</version>
+    </versions>
+    <lastUpdated>20251121225708</lastUpdated>
+  </versioning>
+</metadata>

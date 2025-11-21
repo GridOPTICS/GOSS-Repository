@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.poi</groupId>
+  <artifactId>ooxml</artifactId>
+  <versioning>
+    <latest>poi-ooxml-5.2.2</latest>
+    <release>poi-ooxml-5.2.2</release>
+    <versions>
+      <version>poi-ooxml-5.2.2</version>
+    </versions>
+    <lastUpdated>20251121225709</lastUpdated>
+  </versioning>
+</metadata>

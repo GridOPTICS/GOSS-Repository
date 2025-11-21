@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.jena</groupId>
+  <artifactId>jena-osgi</artifactId>
+  <versioning>
+    <latest>jena-osgi-3.0.1</latest>
+    <release>jena-osgi-3.0.1</release>
+    <versions>
+      <version>jena-osgi-3.0.1</version>
+    </versions>
+    <lastUpdated>20251121225709</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.objectweb.asm</groupId>
+  <artifactId>all</artifactId>
+  <versioning>
+    <latest>asm-all-6.0_BETA</latest>
+    <release>asm-all-6.0_BETA</release>
+    <versions>
+      <version>4.1.0</version>
+      <version>asm-all-6.0_BETA</version>
+    </versions>
+    <lastUpdated>20251121225710</lastUpdated>
+  </versioning>
+</metadata>

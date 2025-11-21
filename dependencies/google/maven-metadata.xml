@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>google</groupId>
+  <artifactId>google</artifactId>
+  <versioning>
+    <latest>gson-2.13.1</latest>
+    <release>gson-2.13.1</release>
+    <versions>
+      <version>gson-2.11.0</version>
+      <version>gson-2.13.1</version>
+    </versions>
+    <lastUpdated>20251121225706</lastUpdated>
+  </versioning>
+</metadata>

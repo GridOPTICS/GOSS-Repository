@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.glassfish.hk2</groupId>
+  <artifactId>osgi-resource-locator</artifactId>
+  <versioning>
+    <latest>osgi-resource-locator-1.0.3</latest>
+    <release>osgi-resource-locator-1.0.3</release>
+    <versions>
+      <version>osgi-resource-locator-1.0.3</version>
+    </versions>
+    <lastUpdated>20251121225710</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.springsource.net.sf</groupId>
+  <artifactId>cglib</artifactId>
+  <versioning>
+    <latest>cglib-3.3.0</latest>
+    <release>cglib-3.3.0</release>
+    <versions>
+      <version>2.2.0</version>
+      <version>cglib-3.3.0</version>
+    </versions>
+    <lastUpdated>20251121225705</lastUpdated>
+  </versioning>
+</metadata>

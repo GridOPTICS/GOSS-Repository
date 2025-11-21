@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.commons</groupId>
+  <artifactId>commons-compress</artifactId>
+  <versioning>
+    <latest>commons-compress-1.21</latest>
+    <release>commons-compress-1.21</release>
+    <versions>
+      <version>commons-compress-1.21</version>
+    </versions>
+    <lastUpdated>20251121225707</lastUpdated>
+  </versioning>
+</metadata>

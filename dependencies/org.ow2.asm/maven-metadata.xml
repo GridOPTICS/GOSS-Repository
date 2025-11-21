@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ow2</groupId>
+  <artifactId>asm</artifactId>
+  <versioning>
+    <latest>asm-util-9.7.1</latest>
+    <release>asm-util-9.7.1</release>
+    <versions>
+      <version>asm-9.7.1</version>
+      <version>asm-commons-9.7.1</version>
+      <version>asm-util-9.7.1</version>
+    </versions>
+    <lastUpdated>20251121225710</lastUpdated>
+  </versioning>
+</metadata>

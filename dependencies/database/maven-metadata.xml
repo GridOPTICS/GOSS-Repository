@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>database</groupId>
+  <artifactId>database</artifactId>
+  <versioning>
+    <latest>h2-2.1.214</latest>
+    <release>h2-2.1.214</release>
+    <versions>
+      <version>h2-2.1.214</version>
+    </versions>
+    <lastUpdated>20251121225705</lastUpdated>
+  </versioning>
+</metadata>

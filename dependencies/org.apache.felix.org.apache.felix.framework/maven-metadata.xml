@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.felix.org.apache.felix</groupId>
+  <artifactId>framework</artifactId>
+  <versioning>
+    <latest>org.apache.felix.framework-7.0.5</latest>
+    <release>org.apache.felix.framework-7.0.5</release>
+    <versions>
+      <version>org.apache.felix.framework-7.0.5</version>
+    </versions>
+    <lastUpdated>20251121225708</lastUpdated>
+  </versioning>
+</metadata>

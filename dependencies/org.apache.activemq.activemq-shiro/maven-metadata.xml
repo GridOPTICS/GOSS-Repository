@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.activemq</groupId>
+  <artifactId>activemq-shiro</artifactId>
+  <versioning>
+    <latest>activemq-shiro-6.2.0</latest>
+    <release>activemq-shiro-6.2.0</release>
+    <versions>
+      <version>activemq-shiro-6.2.0</version>
+    </versions>
+    <lastUpdated>20251121225707</lastUpdated>
+  </versioning>
+</metadata>

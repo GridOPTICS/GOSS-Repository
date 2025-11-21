@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org</groupId>
+  <artifactId>bouncycastle</artifactId>
+  <versioning>
+    <latest>bouncycastle-jce-jdk13_112.0.0</latest>
+    <release>bouncycastle-jce-jdk13_112.0.0</release>
+    <versions>
+      <version>bouncycastle-jce-jdk13_112.0.0</version>
+    </versions>
+    <lastUpdated>20251121225709</lastUpdated>
+  </versioning>
+</metadata>

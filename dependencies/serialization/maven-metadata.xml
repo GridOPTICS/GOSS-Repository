@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>serialization</groupId>
+  <artifactId>serialization</artifactId>
+  <versioning>
+    <latest>xstream-1.4.21</latest>
+    <release>xstream-1.4.21</release>
+    <versions>
+      <version>gson-2.11.0</version>
+      <version>xstream-1.4.20</version>
+      <version>xstream-1.4.21</version>
+    </versions>
+    <lastUpdated>20251121225711</lastUpdated>
+  </versioning>
+</metadata>

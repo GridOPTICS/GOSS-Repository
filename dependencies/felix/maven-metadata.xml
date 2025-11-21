@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>felix</groupId>
+  <artifactId>felix</artifactId>
+  <versioning>
+    <latest>org.apache.felix.scr-2.2.14</latest>
+    <release>org.apache.felix.scr-2.2.14</release>
+    <versions>
+      <version>org.apache.felix.configadmin-1.9.26</version>
+      <version>org.apache.felix.eventadmin-1.6.4</version>
+      <version>org.apache.felix.log-1.3.0</version>
+      <version>org.apache.felix.scr-2.2.12</version>
+      <version>org.apache.felix.scr-2.2.14</version>
+    </versions>
+    <lastUpdated>20251121225706</lastUpdated>
+  </versioning>
+</metadata>

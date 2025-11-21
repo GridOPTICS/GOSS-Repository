@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>javax</groupId>
+  <artifactId>xml</artifactId>
+  <versioning>
+    <latest>com.springsource.1.3.4</latest>
+    <release>com.springsource.1.3.4</release>
+    <versions>
+      <version>com.springsource.1.3.4</version>
+    </versions>
+    <lastUpdated>20251121225707</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.glassfish</groupId>
+  <artifactId>hk2</artifactId>
+  <versioning>
+    <latest>osgi-resource-locator-3.0.0</latest>
+    <release>osgi-resource-locator-3.0.0</release>
+    <versions>
+      <version>hk2-api-2.4.0</version>
+      <version>hk2-api-2.5.0</version>
+      <version>hk2-api-4.0.0-M3</version>
+      <version>hk2-locator-2.4.0-b12</version>
+      <version>hk2-locator-2.5.0-b03</version>
+      <version>hk2-locator-4.0.0-M3</version>
+      <version>hk2-utils-2.4.0-b12</version>
+      <version>hk2-utils-2.5.0-b01</version>
+      <version>hk2-utils-4.0.0-M3</version>
+      <version>osgi-resource-locator-1.0.0</version>
+      <version>osgi-resource-locator-3.0.0</version>
+    </versions>
+    <lastUpdated>20251121225710</lastUpdated>
+  </versioning>
+</metadata>

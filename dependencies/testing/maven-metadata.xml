@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>testing</groupId>
+  <artifactId>testing</artifactId>
+  <versioning>
+    <latest>opentest4j-1.3.0</latest>
+    <release>opentest4j-1.3.0</release>
+    <versions>
+      <version>assertj-core-3.26.3</version>
+      <version>assertj-core-4.0.0-M1</version>
+      <version>byte-buddy-1.15.10</version>
+      <version>byte-buddy-agent-1.15.10</version>
+      <version>junit-4.13.2</version>
+      <version>junit-jupiter-api-5.11.3</version>
+      <version>junit-jupiter-api-5.13.0-M3</version>
+      <version>junit-jupiter-engine-5.11.3</version>
+      <version>junit-jupiter-engine-5.13.0-M3</version>
+      <version>junit-jupiter-params-5.11.3</version>
+      <version>junit-jupiter-params-5.13.0-M3</version>
+      <version>junit-platform-commons-1.11.3</version>
+      <version>junit-platform-commons-1.13.0-M3</version>
+      <version>junit-platform-engine-1.11.3</version>
+      <version>junit-platform-engine-1.13.0-M3</version>
+      <version>junit-platform-launcher-1.11.3</version>
+      <version>junit-platform-launcher-1.13.0-M3</version>
+      <version>junit-vintage-engine-5.11.3</version>
+      <version>junit-vintage-engine-5.13.0-M3</version>
+      <version>mockito-core-5.14.2</version>
+      <version>mockito-core-5.18.0</version>
+      <version>mockito-junit-jupiter-5.14.2</version>
+      <version>mockito-junit-jupiter-5.18.0</version>
+      <version>objenesis-3.4</version>
+      <version>opentest4j-1.3.0</version>
+    </versions>
+    <lastUpdated>20251121225711</lastUpdated>
+  </versioning>
+</metadata>

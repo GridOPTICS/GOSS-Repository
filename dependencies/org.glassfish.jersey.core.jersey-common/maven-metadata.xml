@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.glassfish.jersey.core</groupId>
+  <artifactId>jersey-common</artifactId>
+  <versioning>
+    <latest>jersey-common-2.45</latest>
+    <release>jersey-common-2.45</release>
+    <versions>
+      <version>jersey-common-2.45</version>
+    </versions>
+    <lastUpdated>20251121225710</lastUpdated>
+  </versioning>
+</metadata>
