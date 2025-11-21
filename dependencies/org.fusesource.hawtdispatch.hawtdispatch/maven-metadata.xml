@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.fusesource.hawtdispatch</groupId>
+  <artifactId>hawtdispatch</artifactId>
+  <versioning>
+    <latest>hawtdispatch-1.22</latest>
+    <release>hawtdispatch-1.22</release>
+    <versions>
+      <version>1.19.0</version>
+      <version>1.21.0</version>
+      <version>hawtdispatch-1.22</version>
+    </versions>
+    <lastUpdated>20251121225709</lastUpdated>
+  </versioning>
+</metadata>

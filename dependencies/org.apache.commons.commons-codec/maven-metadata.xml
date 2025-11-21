@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.commons</groupId>
+  <artifactId>commons-codec</artifactId>
+  <versioning>
+    <latest>commons-codec-20041127.091804</latest>
+    <release>commons-codec-20041127.091804</release>
+    <versions>
+      <version>commons-codec-1.11</version>
+      <version>commons-codec-20041127.091804</version>
+    </versions>
+    <lastUpdated>20251121225707</lastUpdated>
+  </versioning>
+</metadata>

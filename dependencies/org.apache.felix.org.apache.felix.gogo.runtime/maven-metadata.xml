@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.felix.org.apache.felix.gogo</groupId>
+  <artifactId>runtime</artifactId>
+  <versioning>
+    <latest>org.apache.felix.gogo.runtime-1.1.6</latest>
+    <release>org.apache.felix.gogo.runtime-1.1.6</release>
+    <versions>
+      <version>org.apache.felix.gogo.runtime-1.1.6</version>
+    </versions>
+    <lastUpdated>20251121225708</lastUpdated>
+  </versioning>
+</metadata>

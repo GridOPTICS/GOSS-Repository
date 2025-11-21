@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.glassfish.jersey.inject</groupId>
+  <artifactId>jersey-hk2</artifactId>
+  <versioning>
+    <latest>jersey-hk2-2.45</latest>
+    <release>jersey-hk2-2.45</release>
+    <versions>
+      <version>jersey-hk2-2.45</version>
+    </versions>
+    <lastUpdated>20251121225710</lastUpdated>
+  </versioning>
+</metadata>

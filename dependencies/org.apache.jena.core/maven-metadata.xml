@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.jena</groupId>
+  <artifactId>core</artifactId>
+  <versioning>
+    <latest>jena-core-5.2.0</latest>
+    <release>jena-core-5.2.0</release>
+    <versions>
+      <version>jena-core-5.2.0</version>
+    </versions>
+    <lastUpdated>20251121225709</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.google</groupId>
+  <artifactId>common</artifactId>
+  <versioning>
+    <latest>guava-33.4.8-jre</latest>
+    <release>guava-33.4.8-jre</release>
+    <versions>
+      <version>guava-14.0</version>
+      <version>guava-33.4.8-jre</version>
+    </versions>
+    <lastUpdated>20251121225705</lastUpdated>
+  </versioning>
+</metadata>

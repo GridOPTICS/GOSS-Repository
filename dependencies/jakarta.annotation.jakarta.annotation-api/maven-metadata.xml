@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>jakarta.annotation.jakarta</groupId>
+  <artifactId>annotation-api</artifactId>
+  <versioning>
+    <latest>jakarta.annotation-api-2.1.1</latest>
+    <release>jakarta.annotation-api-2.1.1</release>
+    <versions>
+      <version>jakarta.annotation-api-2.1.1</version>
+    </versions>
+    <lastUpdated>20251121225706</lastUpdated>
+  </versioning>
+</metadata>

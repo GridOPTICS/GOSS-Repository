@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>jakarta.jms.jakarta</groupId>
+  <artifactId>jms-api</artifactId>
+  <versioning>
+    <latest>jakarta.jms-api-3.1.0</latest>
+    <release>jakarta.jms-api-3.1.0</release>
+    <versions>
+      <version>jakarta.jms-api-3.1.0</version>
+    </versions>
+    <lastUpdated>20251121225706</lastUpdated>
+  </versioning>
+</metadata>

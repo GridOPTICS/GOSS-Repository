@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>javax.ws</groupId>
+  <artifactId>rs</artifactId>
+  <versioning>
+    <latest>api-2.1.1</latest>
+    <release>api-2.1.1</release>
+    <versions>
+      <version>api-2.0.1</version>
+      <version>api-2.1</version>
+      <version>api-2.1.1</version>
+    </versions>
+    <lastUpdated>20251121225707</lastUpdated>
+  </versioning>
+</metadata>

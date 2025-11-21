@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>jersey.repackaged.com.google</groupId>
+  <artifactId>common</artifactId>
+  <versioning>
+    <latest>jersey-guava-2.26-b03</latest>
+    <release>jersey-guava-2.26-b03</release>
+    <versions>
+      <version>jersey-guava-2.18</version>
+      <version>jersey-guava-2.26-b03</version>
+    </versions>
+    <lastUpdated>20251121225707</lastUpdated>
+  </versioning>
+</metadata>

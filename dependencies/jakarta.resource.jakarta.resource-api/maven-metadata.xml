@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>jakarta.resource.jakarta</groupId>
+  <artifactId>resource-api</artifactId>
+  <versioning>
+    <latest>jakarta.resource-api-2.1.0</latest>
+    <release>jakarta.resource-api-2.1.0</release>
+    <versions>
+      <version>jakarta.resource-api-2.1.0</version>
+    </versions>
+    <lastUpdated>20251121225706</lastUpdated>
+  </versioning>
+</metadata>

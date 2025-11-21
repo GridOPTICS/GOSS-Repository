@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org</groupId>
+  <artifactId>topbraid</artifactId>
+  <versioning>
+    <latest>shacl-1.4.4</latest>
+    <release>shacl-1.4.4</release>
+    <versions>
+      <version>shacl-1.1.0</version>
+      <version>shacl-1.4.4</version>
+    </versions>
+    <lastUpdated>20251121225711</lastUpdated>
+  </versioning>
+</metadata>

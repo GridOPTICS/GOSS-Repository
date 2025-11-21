@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>javax.xml</groupId>
+  <artifactId>stream</artifactId>
+  <versioning>
+    <latest>api-1.0-1</latest>
+    <release>api-1.0-1</release>
+    <versions>
+      <version>api-1.0-1</version>
+    </versions>
+    <lastUpdated>20251121225707</lastUpdated>
+  </versioning>
+</metadata>

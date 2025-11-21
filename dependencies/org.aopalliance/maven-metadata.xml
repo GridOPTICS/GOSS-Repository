@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org</groupId>
+  <artifactId>aopalliance</artifactId>
+  <versioning>
+    <latest>aopalliance-1.0-bnd</latest>
+    <release>aopalliance-1.0-bnd</release>
+    <versions>
+      <version>aopalliance-1.0-bnd</version>
+    </versions>
+    <lastUpdated>20251121225707</lastUpdated>
+  </versioning>
+</metadata>

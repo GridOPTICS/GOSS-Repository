@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.fasterxml.jackson.module</groupId>
+  <artifactId>jackson-module-jaxb-annotations</artifactId>
+  <versioning>
+    <latest>jackson-module-jaxb-annotations-2.18.1</latest>
+    <release>jackson-module-jaxb-annotations-2.18.1</release>
+    <versions>
+      <version>jackson-module-jaxb-annotations-2.18.1</version>
+    </versions>
+    <lastUpdated>20251121225705</lastUpdated>
+  </versioning>
+</metadata>

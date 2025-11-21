@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>bnd</groupId>
+  <artifactId>bnd</artifactId>
+  <versioning>
+    <latest>biz.aQute.launcher-7.1.0</latest>
+    <release>biz.aQute.launcher-7.1.0</release>
+    <versions>
+      <version>biz.aQute.junit-7.0.0</version>
+      <version>biz.aQute.junit-7.1.0</version>
+      <version>biz.aQute.launcher-7.0.0</version>
+      <version>biz.aQute.launcher-7.1.0</version>
+    </versions>
+    <lastUpdated>20251121225704</lastUpdated>
+  </versioning>
+</metadata>

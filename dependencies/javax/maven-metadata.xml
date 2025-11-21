@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>javax</groupId>
+  <artifactId>javax</artifactId>
+  <versioning>
+    <latest>javax.jms-api-2.0.1</latest>
+    <release>javax.jms-api-2.0.1</release>
+    <versions>
+      <version>javax.annotation-api-1.3.2</version>
+      <version>javax.jms-api-2.0.1</version>
+    </versions>
+    <lastUpdated>20251121225706</lastUpdated>
+  </versioning>
+</metadata>

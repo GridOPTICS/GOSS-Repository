@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>javax</groupId>
+  <artifactId>crypto</artifactId>
+  <versioning>
+    <latest>javax.crypto_1.8.0</latest>
+    <release>javax.crypto_1.8.0</release>
+    <versions>
+      <version>javax.crypto_1.8.0</version>
+    </versions>
+    <lastUpdated>20251121225706</lastUpdated>
+  </versioning>
+</metadata>

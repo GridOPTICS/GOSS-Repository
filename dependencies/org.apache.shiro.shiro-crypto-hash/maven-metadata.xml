@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.shiro</groupId>
+  <artifactId>shiro-crypto-hash</artifactId>
+  <versioning>
+    <latest>shiro-crypto-hash-2.0.0</latest>
+    <release>shiro-crypto-hash-2.0.0</release>
+    <versions>
+      <version>shiro-crypto-hash-2.0.0</version>
+    </versions>
+    <lastUpdated>20251121225709</lastUpdated>
+  </versioning>
+</metadata>
