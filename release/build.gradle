@@ -2,8 +2,10 @@
  * Rebuild index for bundle-hub
  */
 repositories {
+  mavenCentral()
   maven {
-    url 'http://dl.bintray.com/bnd/bnd'
+    url 'https://dl.bintray.com/bnd/bnd'
+    allowInsecureProtocol = false
   }
 }
 
@@ -34,6 +36,6 @@ task('index') {
   }
 }
 
-task wrapper(type: Wrapper) {
-  jarFile = rootProject.file('.gradle-wrapper/gradle-wrapper.jar')
-}
+// task wrapper(type: Wrapper) {
+//   jarFile = rootProject.file('.gradle-wrapper/gradle-wrapper.jar')
+// }
