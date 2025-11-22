@@ -96,8 +96,8 @@ get_changed_jars() {
         log_info "Found ${#changed_jars[@]} new/modified JAR(s) via git"
     else
         # Fall back to checking modification time against index.xml
-        if [ -f "../index.xml" ]; then
-            local index_mtime=$(stat -c%Y "../index.xml" 2>/dev/null || stat -f%m "../index.xml" 2>/dev/null)
+        if [ -f "index.xml" ]; then
+            local index_mtime=$(stat -c%Y "index.xml" 2>/dev/null || stat -f%m "index.xml" 2>/dev/null)
             while IFS= read -r jar_file; do
                 local jar_mtime=$(stat -c%Y "$jar_file" 2>/dev/null || stat -f%m "$jar_file" 2>/dev/null)
                 if [ "$jar_mtime" -gt "$index_mtime" ]; then
@@ -154,7 +154,7 @@ extract_bundle_metadata() {
 
 # Parse existing index.xml to extract bundle entries
 parse_existing_index() {
-    local index_file="../index.xml"
+    local index_file="index.xml"
 
     if [ ! -f "$index_file" ]; then
         return
@@ -279,7 +279,7 @@ EOF
 
 # Generate OSGi R5 repository index
 generate_osgi_index() {
-    local index_file="../index.xml"
+    local index_file="index.xml"
     local timestamp=$(date -u +"%Y-%m-%dT%H:%M:%S.000Z")
 
     log_info "Generating OSGi repository index..."
