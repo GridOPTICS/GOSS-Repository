@@ -170,9 +170,11 @@ parse_existing_index() {
         /<\/resource>/ {
             in_resource=0
             # Extract the JAR path from url attribute
-            if (match(resource, /attribute name="url" value="([^"]+)"/, arr)) {
-                url = arr[1]
-                print url "|" resource
+            if (resource ~ /attribute name="url" value="/) {
+                url_line = resource
+                sub(/.*attribute name="url" value="/, "", url_line)
+                sub(/".*/, "", url_line)
+                print url_line "|" resource
             }
         }
     ' "$index_file" > /tmp/existing_bundles_$$.txt
