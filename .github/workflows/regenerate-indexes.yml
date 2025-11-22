@@ -3,7 +3,7 @@ name: Regenerate Repository Indexes
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - '**.jar'
       - 'cnf/releaserepo/**/*.jar'
