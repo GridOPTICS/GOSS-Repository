@@ -297,10 +297,12 @@ generate_osgi_index() {
     parse_existing_index
 
     # Create associative array of changed JAR paths for quick lookup
-    declare -A changed_jar_map
+    local -A changed_jar_map
     while IFS= read -r jar; do
         local jar_path="${jar#./}"
-        changed_jar_map["$jar_path"]=1
+        if [ -n "$jar_path" ]; then
+            changed_jar_map["$jar_path"]=1
+        fi
     done < "$changed_jars_file"
 
     # Start XML

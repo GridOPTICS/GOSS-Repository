@@ -6,8 +6,6 @@ on:
       - master
     paths:
       - '**.jar'
-      - 'cnf/releaserepo/**/*.jar'
-      - 'dependencies/**/*.jar'
   workflow_dispatch:
 
 jobs:
