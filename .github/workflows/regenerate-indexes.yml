@@ -47,8 +47,7 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-          git add cnf/releaserepo/index.xml cnf/releaserepo/index.xml.gz
-          git add cnf/releaserepo/*/maven-metadata.xml
+          git add cnf/*
           git add dependencies/index.xml dependencies/index.xml.gz
           git add dependencies/*/maven-metadata.xml
           git commit -m "Auto-regenerate repository indexes" \
