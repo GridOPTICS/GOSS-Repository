@@ -7,6 +7,12 @@ on:
     paths:
       - '**.jar'
   workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force regeneration of all indexes (ignore cache)'
+        required: false
+        default: 'false'
+        type: boolean
 
 jobs:
   regenerate-indexes:
@@ -30,12 +36,20 @@ jobs:
       - name: Regenerate cnf/releaserepo indexes
         run: |
           echo "Regenerating indexes for cnf/releaserepo..."
-          ./generate-repository-index.sh cnf/releaserepo
+          if [ "${{ inputs.force }}" = "true" ]; then
+            ./generate-repository-index.sh --force cnf/releaserepo
+          else
+            ./generate-repository-index.sh cnf/releaserepo
+          fi
 
       - name: Regenerate dependencies indexes
         run: |
           echo "Regenerating indexes for dependencies..."
-          ./generate-repository-index.sh dependencies
+          if [ "${{ inputs.force }}" = "true" ]; then
+            ./generate-repository-index.sh --force dependencies
+          else
+            ./generate-repository-index.sh dependencies
+          fi
 
       - name: Check for changes
         id: check_changes
