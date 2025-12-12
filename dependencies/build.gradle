@@ -2,11 +2,8 @@
  * Rebuild index for bundle-hub
  */
 repositories {
-  /*maven {
-    url 'http://dl.bintray.com/bnd/bnd'
-  }*/
+  mavenCentral()
   google()
-  jcenter()
 }
 
 configurations {
@@ -19,7 +16,7 @@ dependencies {
 
 defaultTasks = [':index']
 
-task('index') {
+tasks.register('index') {
   /* Bundles to index. */
   def bundles = fileTree(projectDir) {
     include '**/*.jar'
@@ -27,12 +24,12 @@ task('index') {
     exclude '.*/'
   }
   doLast {
-    javaexec {
-      main = '-jar' // first arg must be the jar
-      args configurations.repoindex.singleFile
+    providers.exec {
+      executable 'java'
+      args '-jar', configurations.repoindex.singleFile
       args '-n', 'BundleHub'
       args bundles*.absolutePath
-    }.assertNormalExitValue()
+    }.result.get().assertNormalExitValue()
   }
 }
 
