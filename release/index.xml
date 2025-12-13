@@ -1,8 +1,872 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository increment="1765582255000" name="GOSS Archive Repository" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+<repository increment="1765583666000" name="GOSS Archive Repository" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-webBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)DynamicImport-Package:*Import-Package:com.google.gson"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-web"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="11.0.0"/>
     </capability>
@@ -13,13 +877,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-webBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)DynamicImport-Package:*Import-Package:com.google.gson"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-web"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-webBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:1.0.12.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.server.web.Hello,META-INF/dependencymanager/pnnl.goss.core.server.web.Default"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-web"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="1.0.12.201509102217"/>
     </capability>
@@ -30,13 +894,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-webBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:1.0.12.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.server.web.Hello,META-INF/dependencymanager/pnnl.goss.core.server.web.Default"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-web"/>
       <attribute name="bundle-version" type="Version" value="1.0.12.201509102217"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-webBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0.SNAPSHOTCreated-By:21.0.9(Debian)DynamicImport-Package:*Import-Package:com.google.gson"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-web"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.0.SNAPSHOT"/>
     </capability>
@@ -47,13 +911,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-webBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0.SNAPSHOTCreated-By:21.0.9(Debian)DynamicImport-Package:*Import-Package:com.google.gson"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-web"/>
       <attribute name="bundle-version" type="Version" value="2.0.0.SNAPSHOT"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.itestsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Import-Package:jakarta.jms"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.itests"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="11.0.0"/>
     </capability>
@@ -64,13 +928,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.itestsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Import-Package:jakarta.jms"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.itests"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.itestsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Import-Package:jakarta.jms"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.itests"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
@@ -81,13 +945,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.itestsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Import-Package:jakarta.jms"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.itests"/>
       <attribute name="bundle-version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.itestsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.1.201509102217Import-Package:javax.jms"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.itests"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.1.201509102217"/>
     </capability>
@@ -98,13 +962,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.itestsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.1.201509102217Import-Package:javax.jms"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.itests"/>
       <attribute name="bundle-version" type="Version" value="2.0.1.201509102217"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.itestsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:1.0.0.201503080631Import-Package:org.amdatu.testing.configurator"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.itests"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="1.0.0.201503080631"/>
     </capability>
@@ -115,13 +979,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.itestsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:1.0.0.201503080631Import-Package:org.amdatu.testing.configurator"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.itests"/>
       <attribute name="bundle-version" type="Version" value="1.0.0.201503080631"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.itestsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:0.0.0.201503111933Import-Package:org.amdatu.testing.configurator"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.itests"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="0.0.0.201503111933"/>
     </capability>
@@ -132,13 +996,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.itestsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:0.0.0.201503111933Import-Package:org.amdatu.testing.configurator"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.itests"/>
       <attribute name="bundle-version" type="Version" value="0.0.0.201503111933"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.security-ldapBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Import-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.security-ldap"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.0.SNAPSHOT"/>
     </capability>
@@ -149,13 +1013,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.security-ldapBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Import-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.security-ldap"/>
       <attribute name="bundle-version" type="Version" value="2.0.0.SNAPSHOT"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.security-ldapBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:1.0.0.201503111933DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.security.ldap.GossLDAPRealmImport-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.security-ldap"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="1.0.0.201503111933"/>
     </capability>
@@ -166,13 +1030,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.security-ldapBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:1.0.0.201503111933DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.security.ldap.GossLDAPRealmImport-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.security-ldap"/>
       <attribute name="bundle-version" type="Version" value="1.0.0.201503111933"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.security-ldapBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:1.0.5.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.security.ldap.GossLDAPRealmImport-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.security-ldap"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="1.0.5.201509102217"/>
     </capability>
@@ -183,13 +1047,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.security-ldapBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:1.0.5.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.security.ldap.GossLDAPRealmImport-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.security-ldap"/>
       <attribute name="bundle-version" type="Version" value="1.0.5.201509102217"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.security-ldapBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Import-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.security-ldap"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="11.0.0"/>
     </capability>
@@ -200,13 +1064,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.security-ldapBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Import-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.security-ldap"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.core-apiBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0Export-Package:pnnl.goss.core"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.core-api"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.0"/>
     </capability>
@@ -217,13 +1081,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.core-apiBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0Export-Package:pnnl.goss.core"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.core-api"/>
       <attribute name="bundle-version" type="Version" value="2.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.core-apiBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.3.201509102217Export-Package:pnnl.goss.core"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.core-api"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.3.201509102217"/>
     </capability>
@@ -234,13 +1098,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.core-apiBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.3.201509102217Export-Package:pnnl.goss.core"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.core-api"/>
       <attribute name="bundle-version" type="Version" value="2.0.3.201509102217"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.core-apiBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Export-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.core-api"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="11.0.0"/>
     </capability>
@@ -251,13 +1115,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.core-apiBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Export-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.core-api"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.core-apiBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:8.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Export-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.core-api"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="8.0.0.SNAPSHOT"/>
     </capability>
@@ -268,13 +1132,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.core-apiBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:8.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Export-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.core-api"/>
       <attribute name="bundle-version" type="Version" value="8.0.0.SNAPSHOT"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-securityBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.1.1.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.security.impl.GossAuthorizingRealm,META-INF/dependencymanager/pnnl.goss.core.security.AuthorizeAll,META-INF/dependencymanager/pnnl.goss.core.se"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-security"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.1.1.201509102217"/>
     </capability>
@@ -285,13 +1149,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-securityBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.1.1.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.security.impl.GossAuthorizingRealm,META-INF/dependencymanager/pnnl.goss.core.security.AuthorizeAll,META-INF/dependencymanager/pnnl.goss.core.se"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-security"/>
       <attribute name="bundle-version" type="Version" value="2.1.1.201509102217"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-securityBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Export-Package:pnnl.goss.core.security"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-security"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="11.0.0"/>
     </capability>
@@ -302,13 +1166,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-securityBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Export-Package:pnnl.goss.core.security"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-security"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-securityBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Export-Package:pnnl.goss.core.security"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-security"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
@@ -319,13 +1183,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-securityBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Export-Package:pnnl.goss.core.security"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-security"/>
       <attribute name="bundle-version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-securityBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.security.impl.GossAuthorizingRealm,META-INF/dependencymanager/pnnl.goss.core.security.impl.SecurityManagerRealmHandler"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-security"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.0"/>
     </capability>
@@ -336,13 +1200,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-securityBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.security.impl.GossAuthorizingRealm,META-INF/dependencymanager/pnnl.goss.core.security.impl.SecurityManagerRealmHandler"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-security"/>
       <attribute name="bundle-version" type="Version" value="2.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-apiBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0Export-Package:pnnl.goss.core.server"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-api"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.0"/>
     </capability>
@@ -353,13 +1217,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-apiBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0Export-Package:pnnl.goss.core.server"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-api"/>
       <attribute name="bundle-version" type="Version" value="2.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-apiBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Export-Package:pnnl.goss.core.server"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-api"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
@@ -370,13 +1234,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-apiBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Export-Package:pnnl.goss.core.server"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-api"/>
       <attribute name="bundle-version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-apiBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.6.201509102217Export-Package:pnnl.goss.core.server"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-api"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.6.201509102217"/>
     </capability>
@@ -387,13 +1251,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-apiBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.6.201509102217Export-Package:pnnl.goss.core.server"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-api"/>
       <attribute name="bundle-version" type="Version" value="2.0.6.201509102217"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-apiBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Export-Package:pnnl.goss.core.server"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-api"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="11.0.0"/>
     </capability>
@@ -404,13 +1268,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-apiBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Export-Package:pnnl.goss.core.server"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-api"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-commandsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.5.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.commands.ClientCommandsImport-Package:pnnl.goss.core"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-commands"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.5.201509102217"/>
     </capability>
@@ -421,13 +1285,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-commandsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.5.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.commands.ClientCommandsImport-Package:pnnl.goss.core"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-commands"/>
       <attribute name="bundle-version" type="Version" value="2.0.5.201509102217"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-commandsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Import-Package:java.io,java.lang,java.lang.invoke,java.util,org.apache.http.auth,pnnl.goss.core"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-commands"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="11.0.0"/>
     </capability>
@@ -438,13 +1302,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-commandsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Import-Package:java.io,java.lang,java.lang.invoke,java.util,org.apache.http.auth,pnnl.goss.core"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-commands"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-commandsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Import-Package:java.io,java.lang,java.lang.invoke,java.util,org.apache.http.auth,pnnl.goss.core"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-commands"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
@@ -455,13 +1319,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-commandsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Import-Package:java.io,java.lang,java.lang.invoke,java.util,org.apache.http.auth,pnnl.goss.core"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-commands"/>
       <attribute name="bundle-version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-commandsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.commands.ClientCommandsImport-Package:pnnl.goss.core"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-commands"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.0"/>
     </capability>
@@ -472,13 +1336,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-commandsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.commands.ClientCommandsImport-Package:pnnl.goss.core"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-commands"/>
       <attribute name="bundle-version" type="Version" value="2.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-serverBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.server.impl.PooledBasicDataSourceBuilderImpl,META-INF/dependencymanager/pnnl.goss.core.server.impl.HandlerRegistryImpl,META-INF/dependencymanag"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.0"/>
     </capability>
@@ -489,13 +1353,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-serverBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.server.impl.PooledBasicDataSourceBuilderImpl,META-INF/dependencymanager/pnnl.goss.core.server.impl.HandlerRegistryImpl,META-INF/dependencymanag"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server"/>
       <attribute name="bundle-version" type="Version" value="2.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-serverBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)DynamicImport-Package:*Export-Package:pnnl.goss.core.server.impl"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="11.0.0"/>
     </capability>
@@ -506,13 +1370,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-serverBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)DynamicImport-Package:*Export-Package:pnnl.goss.core.server.impl"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-serverBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.7.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.server.impl.TokenMap,META-INF/dependencymanager/pnnl.goss.core.server.impl.ManagementLauncher,META-INF/dependencymanager/pnnl.goss.core.server."/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.7.201509102217"/>
     </capability>
@@ -523,13 +1387,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-serverBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.7.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.server.impl.TokenMap,META-INF/dependencymanager/pnnl.goss.core.server.impl.ManagementLauncher,META-INF/dependencymanager/pnnl.goss.core.server."/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server"/>
       <attribute name="bundle-version" type="Version" value="2.0.7.201509102217"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-serverBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)DynamicImport-Package:*Export-Package:pnnl.goss.core.server.impl"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
@@ -540,13 +1404,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-serverBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)DynamicImport-Package:*Export-Package:pnnl.goss.core.server.impl"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server"/>
       <attribute name="bundle-version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.testutilBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Export-Package:pnnl.goss.core.testutil"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.testutil"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="11.0.0"/>
     </capability>
@@ -557,13 +1421,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.testutilBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Export-Package:pnnl.goss.core.testutil"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.testutil"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.testutilBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:1.0.0.201509102217Export-Package:pnnl.goss.core.testutil"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.testutil"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="1.0.0.201509102217"/>
     </capability>
@@ -574,13 +1438,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.testutilBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:1.0.0.201509102217Export-Package:pnnl.goss.core.testutil"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.testutil"/>
       <attribute name="bundle-version" type="Version" value="1.0.0.201509102217"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.testutilBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Export-Package:pnnl.goss.core.testutil"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.testutil"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.0.SNAPSHOT"/>
     </capability>
@@ -591,13 +1455,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.testutilBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Export-Package:pnnl.goss.core.testutil"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.testutil"/>
       <attribute name="bundle-version" type="Version" value="2.0.0.SNAPSHOT"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-clientBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Export-Package:pnnl.goss.core.client"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-client"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="11.0.0"/>
     </capability>
@@ -608,13 +1472,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-clientBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Export-Package:pnnl.goss.core.client"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-client"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-clientBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Export-Package:pnnl.goss.core.client"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-client"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
@@ -625,13 +1489,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-clientBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Export-Package:pnnl.goss.core.client"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-client"/>
       <attribute name="bundle-version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-clientBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.client.ClientServiceFactoryImport-Package:com.google.gson"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-client"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.0"/>
     </capability>
@@ -642,13 +1506,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-clientBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.client.ClientServiceFactoryImport-Package:com.google.gson"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-client"/>
       <attribute name="bundle-version" type="Version" value="2.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-clientBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.5.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.client.ClientServiceFactoryImport-Package:com.google.gson"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-client"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.5.201509102217"/>
     </capability>
@@ -659,13 +1523,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-clientBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.5.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.client.ClientServiceFactoryImport-Package:com.google.gson"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-client"/>
       <attribute name="bundle-version" type="Version" value="2.0.5.201509102217"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-exceptionsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.1.0.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.exception.ExceptionLookupExport-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-exceptions"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.1.0.201509102217"/>
     </capability>
@@ -676,13 +1540,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-exceptionsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.1.0.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.exception.ExceptionLookupExport-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-exceptions"/>
       <attribute name="bundle-version" type="Version" value="2.1.0.201509102217"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-exceptionsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.exception.ExceptionLookupImport-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-exceptions"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.0"/>
     </capability>
@@ -693,13 +1557,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-exceptionsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.exception.ExceptionLookupImport-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-exceptions"/>
       <attribute name="bundle-version" type="Version" value="2.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-exceptionsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Export-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-exceptions"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
@@ -710,13 +1574,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-exceptionsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Export-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-exceptions"/>
       <attribute name="bundle-version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-exceptionsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Export-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-exceptions"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="11.0.0"/>
     </capability>
@@ -727,13 +1591,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-exceptionsBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Export-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-exceptions"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-registryBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)DynamicImport-Package:*Import-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-registry"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="11.0.0"/>
     </capability>
@@ -744,13 +1608,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-registryBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)DynamicImport-Package:*Import-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-registry"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-registryBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:1.0.3.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.server.registry.HandlerRegistryImpl,META-INF/dependencymanager/pnnl.goss.server.registry.PooledBasicDataSourceBuilderImpl,META-INF/dependencymanager"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-registry"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="1.0.3.201509102217"/>
     </capability>
@@ -761,13 +1625,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-registryBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:1.0.3.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.server.registry.HandlerRegistryImpl,META-INF/dependencymanager/pnnl.goss.server.registry.PooledBasicDataSourceBuilderImpl,META-INF/dependencymanager"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-registry"/>
       <attribute name="bundle-version" type="Version" value="1.0.3.201509102217"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-registryBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0.SNAPSHOTCreated-By:21.0.9(Debian)DynamicImport-Package:*Import-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-registry"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.0.SNAPSHOT"/>
     </capability>
@@ -778,13 +1642,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-registryBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0.SNAPSHOTCreated-By:21.0.9(Debian)DynamicImport-Package:*Import-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-registry"/>
       <attribute name="bundle-version" type="Version" value="2.0.0.SNAPSHOT"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.runnerBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.server.runner.EchoAuthorizeAllHandler,META-INF/dependencymanager/pnnl.goss.core.server.runner.EchoRequestHandler,META-INF/dependencymanager/pnn"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.runner"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0"/>
     </capability>
@@ -795,13 +1659,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.runnerBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.server.runner.EchoAuthorizeAllHandler,META-INF/dependencymanager/pnnl.goss.core.server.runner.EchoRequestHandler,META-INF/dependencymanager/pnn"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.runner"/>
       <attribute name="bundle-version" type="Version" value="2.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.runnerBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Export-Package:pnnl.goss.core.server.runner.requests"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.runner"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="11.0.0"/>
     </capability>
@@ -812,13 +1676,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.runnerBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Export-Package:pnnl.goss.core.server.runner.requests"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.runner"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.runnerBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.2.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.server.runner.EchoAuthorizeAllHandler,META-INF/dependencymanager/pnnl.goss.core.server.runner.EchoRequestHandler,META-INF/dependencymanager/pnn"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.runner"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.2.201509102217"/>
     </capability>
@@ -829,13 +1693,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.runnerBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.2.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.server.runner.EchoAuthorizeAllHandler,META-INF/dependencymanager/pnnl.goss.core.server.runner.EchoRequestHandler,META-INF/dependencymanager/pnn"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.runner"/>
       <attribute name="bundle-version" type="Version" value="2.0.2.201509102217"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.runnerBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Export-Package:pnnl.goss.core.server.runner.requests"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.runner"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
@@ -846,13 +1710,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.runnerBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Export-Package:pnnl.goss.core.server.runner.requests"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.runner"/>
       <attribute name="bundle-version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.security-propertyfileBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.8.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.security.propertyfile.PropertyBasedRealmImport-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.security-propertyfile"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.8.201509102217"/>
     </capability>
@@ -863,13 +1727,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.security-propertyfileBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.8.201509102217DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.security.propertyfile.PropertyBasedRealmImport-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.security-propertyfile"/>
       <attribute name="bundle-version" type="Version" value="2.0.8.201509102217"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.security-propertyfileBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Import-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.security-propertyfile"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="11.0.0"/>
     </capability>
@@ -880,13 +1744,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.security-propertyfileBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:11.0.0Created-By:21.0.9(Debian)Import-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.security-propertyfile"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.security-propertyfileBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.security.propertyfile.PropertyBasedRealmImport-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.security-propertyfile"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.0"/>
     </capability>
@@ -897,13 +1761,13 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.security-propertyfileBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:2.0.0DependencyManager-Component:META-INF/dependencymanager/pnnl.goss.core.security.propertyfile.PropertyBasedRealmImport-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.security-propertyfile"/>
       <attribute name="bundle-version" type="Version" value="2.0.0"/>
     </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="pnnl.goss.core.security-propertyfileBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Import-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.identity" value="pnnl.goss.core.security-propertyfile"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
@@ -914,7 +1778,7 @@
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.bundle">
-      <attribute name="osgi.bundle" value="pnnl.goss.core.security-propertyfileBundle-Vendor:PacificNorthwestNationalLaboratory(PNNL)Bundle-Version:3.0.0.SNAPSHOTCreated-By:21.0.9(Debian)Import-Package:com.northconcepts.exception"/>
+      <attribute name="osgi.bundle" value="pnnl.goss.core.security-propertyfile"/>
       <attribute name="bundle-version" type="Version" value="3.0.0.SNAPSHOT"/>
     </capability>
   </resource>

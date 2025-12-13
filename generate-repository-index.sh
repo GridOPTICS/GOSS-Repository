@@ -142,10 +142,11 @@ extract_bundle_metadata() {
         return 1
     fi
 
-    # Extract key OSGi headers (handle line continuations)
-    local bsn=$(echo "$manifest" | grep -A5 "^Bundle-SymbolicName:" | tr -d '\n\r' | sed 's/Bundle-SymbolicName: *//' | sed 's/;.*//' | tr -d ' ')
-    local version=$(echo "$manifest" | grep "^Bundle-Version:" | sed 's/Bundle-Version: *//' | tr -d '\n\r ')
-    local name=$(echo "$manifest" | grep "^Bundle-Name:" | sed 's/Bundle-Name: *//' | tr -d '\n\r')
+    # Extract key OSGi headers
+    # Note: Only get the single line for each header, don't use -A flag which pulls extra lines
+    local bsn=$(echo "$manifest" | grep "^Bundle-SymbolicName:" | head -1 | sed 's/Bundle-SymbolicName: *//' | sed 's/;.*//' | tr -d '\n\r ')
+    local version=$(echo "$manifest" | grep "^Bundle-Version:" | head -1 | sed 's/Bundle-Version: *//' | tr -d '\n\r ')
+    local name=$(echo "$manifest" | grep "^Bundle-Name:" | head -1 | sed 's/Bundle-Name: *//' | tr -d '\n\r')
 
     if [ -z "$bsn" ] || [ -z "$version" ]; then
         return 1
