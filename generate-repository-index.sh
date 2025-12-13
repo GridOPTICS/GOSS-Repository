@@ -287,12 +287,28 @@ EOF
     log_debug "  Generated Maven metadata: $metadata_file"
 }
 
+# Escape special XML characters in attribute values
+xml_escape() {
+    local str="$1"
+    # Must escape & first, then other characters
+    str="${str//&/&amp;}"
+    str="${str//</&lt;}"
+    str="${str//>/&gt;}"
+    str="${str//\"/&quot;}"
+    echo "$str"
+}
+
 # Generate XML for a bundle resource
 generate_bundle_xml() {
     local jar_file="$1"
     local bsn="$2"
     local version="$3"
     local name="$4"
+
+    # Escape XML special characters in values
+    bsn=$(xml_escape "$bsn")
+    version=$(xml_escape "$version")
+    name=$(xml_escape "$name")
 
     local jar_path="${jar_file#./}"
     local jar_size=$(stat -c%s "$jar_file" 2>/dev/null || stat -f%z "$jar_file" 2>/dev/null)
