@@ -3,11 +3,11 @@
   <groupId>com.google</groupId>
   <artifactId>guava</artifactId>
   <versioning>
-    <latest>guava-33.3.1-jre</latest>
-    <release>guava-33.3.1-jre</release>
+    <latest>33.3.1-jre</latest>
+    <release>33.3.1-jre</release>
     <versions>
-      <version>guava-33.3.1-jre</version>
+      <version>33.3.1-jre</version>
     </versions>
-    <lastUpdated>20251121234926</lastUpdated>
+    <lastUpdated>20251218233404</lastUpdated>
   </versioning>
 </metadata>

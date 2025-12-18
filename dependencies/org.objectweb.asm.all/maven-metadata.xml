@@ -3,12 +3,12 @@
   <groupId>org.objectweb.asm</groupId>
   <artifactId>all</artifactId>
   <versioning>
-    <latest>asm-all-6.0_BETA</latest>
-    <release>asm-all-6.0_BETA</release>
+    <latest>6.0_BETA</latest>
+    <release>6.0_BETA</release>
     <versions>
       <version>4.1.0</version>
-      <version>asm-all-6.0_BETA</version>
+      <version>6.0_BETA</version>
     </versions>
-    <lastUpdated>20251121234930</lastUpdated>
+    <lastUpdated>20251218233404</lastUpdated>
   </versioning>
 </metadata>

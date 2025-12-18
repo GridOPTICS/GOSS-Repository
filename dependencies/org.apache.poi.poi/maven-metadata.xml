@@ -3,11 +3,11 @@
   <groupId>org.apache.poi</groupId>
   <artifactId>poi</artifactId>
   <versioning>
-    <latest>poi-5.2.2</latest>
-    <release>poi-5.2.2</release>
+    <latest>5.2.2</latest>
+    <release>5.2.2</release>
     <versions>
-      <version>poi-5.2.2</version>
+      <version>5.2.2</version>
     </versions>
-    <lastUpdated>20251121234928</lastUpdated>
+    <lastUpdated>20251218233404</lastUpdated>
   </versioning>
 </metadata>

@@ -3,24 +3,24 @@
   <groupId>gov.pnnl.proven</groupId>
   <artifactId>message</artifactId>
   <versioning>
-    <latest>proven-message-0.5</latest>
-    <release>proven-message-0.5</release>
+    <latest>0.5</latest>
+    <release>0.5</release>
     <versions>
-      <version>proven-client-0.1</version>
-      <version>proven-client-0.1-sources</version>
-      <version>proven-client-0.2</version>
-      <version>proven-client-0.2.1</version>
-      <version>proven-client-0.2.2</version>
-      <version>proven-client-0.2.3</version>
-      <version>proven-client-0.2.4</version>
-      <version>proven-client-0.2.5</version>
-      <version>proven-message-0.1</version>
-      <version>proven-message-0.1-all-in-one</version>
-      <version>proven-message-0.2</version>
-      <version>proven-message-0.3</version>
-      <version>proven-message-0.4</version>
-      <version>proven-message-0.5</version>
+      <version>0.1</version>
+      <version>0.1</version>
+      <version>0.1-all-in-one</version>
+      <version>0.1-sources</version>
+      <version>0.2</version>
+      <version>0.2</version>
+      <version>0.2.1</version>
+      <version>0.2.2</version>
+      <version>0.2.3</version>
+      <version>0.2.4</version>
+      <version>0.2.5</version>
+      <version>0.3</version>
+      <version>0.4</version>
+      <version>0.5</version>
     </versions>
-    <lastUpdated>20251121234926</lastUpdated>
+    <lastUpdated>20251218233404</lastUpdated>
   </versioning>
 </metadata>
