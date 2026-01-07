@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository increment="1767727702119" name="GOSS Archive Repository" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+<repository increment="1767745227308" name="GOSS Archive Repository" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-web"/>
@@ -15,6 +15,23 @@
     <capability namespace="osgi.bundle">
       <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-web"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-web"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="12.0.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="2ec4e617e282e1f073c833919cd4ef48f6dd7be875a1f10fb3ff484ae70e1821"/>
+      <attribute name="url" value="pnnl.goss.core.goss-core-server-web/pnnl.goss.core.goss-core-server-web-12.0.0.jar"/>
+      <attribute name="size" type="Long" value="240769"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.bundle">
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-web"/>
+      <attribute name="bundle-version" type="Version" value="12.0.0"/>
     </capability>
   </resource>
   <resource>
@@ -66,6 +83,23 @@
     <capability namespace="osgi.bundle">
       <attribute name="osgi.bundle" value="pnnl.goss.core.itests"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="pnnl.goss.core.itests"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="12.0.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="4858d17345f86e709de23a81fb2c761a4accdc7e40c635f5e4c8e9dcf92229b0"/>
+      <attribute name="url" value="pnnl.goss.core.itests/pnnl.goss.core.itests-12.0.0.jar"/>
+      <attribute name="size" type="Long" value="44871"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.bundle">
+      <attribute name="osgi.bundle" value="pnnl.goss.core.itests"/>
+      <attribute name="bundle-version" type="Version" value="12.0.0"/>
     </capability>
   </resource>
   <resource>
@@ -206,6 +240,23 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="pnnl.goss.core.security-ldap"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="12.0.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="a85647aacd4a349c2a627bf3364bc8b5ccd31630ddd53ae4ae437c1e4e45730c"/>
+      <attribute name="url" value="pnnl.goss.core.security-ldap/pnnl.goss.core.security-ldap-12.0.0.jar"/>
+      <attribute name="size" type="Long" value="10457"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.bundle">
+      <attribute name="osgi.bundle" value="pnnl.goss.core.security-ldap"/>
+      <attribute name="bundle-version" type="Version" value="12.0.0"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="pnnl.goss.core.core-api"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.0"/>
@@ -270,6 +321,23 @@
     <capability namespace="osgi.bundle">
       <attribute name="osgi.bundle" value="pnnl.goss.core.core-api"/>
       <attribute name="bundle-version" type="Version" value="8.0.0.SNAPSHOT"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="pnnl.goss.core.core-api"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="12.0.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="b00899f8186ed2d406d1926abafb483b7ca803fcaddeb0374495de3564f108c5"/>
+      <attribute name="url" value="pnnl.goss.core.core-api/pnnl.goss.core.core-api-12.0.0.jar"/>
+      <attribute name="size" type="Long" value="60345"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.bundle">
+      <attribute name="osgi.bundle" value="pnnl.goss.core.core-api"/>
+      <attribute name="bundle-version" type="Version" value="12.0.0"/>
     </capability>
   </resource>
   <resource>
@@ -342,6 +410,23 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-security"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="12.0.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="38f2fdbd1ff9e0ac68b09b49644f9c148a2f86067950d612b98b9accdc3b17e2"/>
+      <attribute name="url" value="pnnl.goss.core.goss-core-security/pnnl.goss.core.goss-core-security-12.0.0.jar"/>
+      <attribute name="size" type="Long" value="30825"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.bundle">
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-security"/>
+      <attribute name="bundle-version" type="Version" value="12.0.0"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-api"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.0"/>
@@ -406,6 +491,23 @@
     <capability namespace="osgi.bundle">
       <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-api"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-api"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="12.0.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="e8bbcd657abcc6b51a9648e8cdf3a3068a0199cf1e7300dc57fd491bb97e7260"/>
+      <attribute name="url" value="pnnl.goss.core.goss-core-server-api/pnnl.goss.core.goss-core-server-api-12.0.0.jar"/>
+      <attribute name="size" type="Long" value="14459"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.bundle">
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-api"/>
+      <attribute name="bundle-version" type="Version" value="12.0.0"/>
     </capability>
   </resource>
   <resource>
@@ -478,6 +580,23 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-commands"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="12.0.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="fa98f603038d8d0fcc3a70098aca16ee9c67c999faecbcc09772f6a1e76a3623"/>
+      <attribute name="url" value="pnnl.goss.core.goss-core-commands/pnnl.goss.core.goss-core-commands-12.0.0.jar"/>
+      <attribute name="size" type="Long" value="5089"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.bundle">
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-commands"/>
+      <attribute name="bundle-version" type="Version" value="12.0.0"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.0"/>
@@ -508,6 +627,23 @@
     <capability namespace="osgi.bundle">
       <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server"/>
       <attribute name="bundle-version" type="Version" value="11.0.0"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="12.0.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="4c07944051d0adfd4616971b7c64de0294b1b05b81a7234a01f053788d5eea23"/>
+      <attribute name="url" value="pnnl.goss.core.goss-core-server/pnnl.goss.core.goss-core-server-12.0.0.jar"/>
+      <attribute name="size" type="Long" value="48643"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.bundle">
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server"/>
+      <attribute name="bundle-version" type="Version" value="12.0.0"/>
     </capability>
   </resource>
   <resource>
@@ -565,6 +701,23 @@
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="pnnl.goss.core.testutil"/>
       <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="12.0.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="6319426c69fc2701622f2b27d118b61a5d612278bb5701b5086b8e3c921f6c8c"/>
+      <attribute name="url" value="pnnl.goss.core.testutil/pnnl.goss.core.testutil-12.0.0.jar"/>
+      <attribute name="size" type="Long" value="5617"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.bundle">
+      <attribute name="osgi.bundle" value="pnnl.goss.core.testutil"/>
+      <attribute name="bundle-version" type="Version" value="12.0.0"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="pnnl.goss.core.testutil"/>
+      <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="1.0.0.201509102217"/>
     </capability>
     <capability namespace="osgi.content">
@@ -593,6 +746,23 @@
     <capability namespace="osgi.bundle">
       <attribute name="osgi.bundle" value="pnnl.goss.core.testutil"/>
       <attribute name="bundle-version" type="Version" value="2.0.0.SNAPSHOT"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-client"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="12.0.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="7bd0d768030bb43c4ace55724d10a21ffb0bf0a8f7be46ace36a13b76b510028"/>
+      <attribute name="url" value="pnnl.goss.core.goss-client/pnnl.goss.core.goss-client-12.0.0.jar"/>
+      <attribute name="size" type="Long" value="34596"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.bundle">
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-client"/>
+      <attribute name="bundle-version" type="Version" value="12.0.0"/>
     </capability>
   </resource>
   <resource>
@@ -661,6 +831,23 @@
     <capability namespace="osgi.bundle">
       <attribute name="osgi.bundle" value="pnnl.goss.core.goss-client"/>
       <attribute name="bundle-version" type="Version" value="2.0.5.201509102217"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-exceptions"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="12.0.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="486187fabe522ecf7a298284b57b197a1d393c9b614956ef78ce80761bbfd225"/>
+      <attribute name="url" value="pnnl.goss.core.goss-core-exceptions/pnnl.goss.core.goss-core-exceptions-12.0.0.jar"/>
+      <attribute name="size" type="Long" value="14023"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.bundle">
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-exceptions"/>
+      <attribute name="bundle-version" type="Version" value="12.0.0"/>
     </capability>
   </resource>
   <resource>
@@ -769,6 +956,23 @@
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-registry"/>
       <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="12.0.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="b256971090137f3559e1f71da3a92ee83d414cca59d439c8c44622d5adea660e"/>
+      <attribute name="url" value="pnnl.goss.core.goss-core-server-registry/pnnl.goss.core.goss-core-server-registry-12.0.0.jar"/>
+      <attribute name="size" type="Long" value="20985"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.bundle">
+      <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-registry"/>
+      <attribute name="bundle-version" type="Version" value="12.0.0"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="pnnl.goss.core.goss-core-server-registry"/>
+      <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" type="Version" value="2.0.0.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.content">
@@ -780,6 +984,23 @@
     <capability namespace="osgi.bundle">
       <attribute name="osgi.bundle" value="pnnl.goss.core.goss-core-server-registry"/>
       <attribute name="bundle-version" type="Version" value="2.0.0.SNAPSHOT"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="pnnl.goss.core.runner"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="12.0.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="ded08f853fd7754bb682a30e10d6987b962f05144c9506e051b67560104f4ebc"/>
+      <attribute name="url" value="pnnl.goss.core.runner/pnnl.goss.core.runner-12.0.0.jar"/>
+      <attribute name="size" type="Long" value="8347"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.bundle">
+      <attribute name="osgi.bundle" value="pnnl.goss.core.runner"/>
+      <attribute name="bundle-version" type="Version" value="12.0.0"/>
     </capability>
   </resource>
   <resource>
@@ -899,6 +1120,23 @@
     <capability namespace="osgi.bundle">
       <attribute name="osgi.bundle" value="pnnl.goss.core.security-propertyfile"/>
       <attribute name="bundle-version" type="Version" value="2.0.0"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="pnnl.goss.core.security-propertyfile"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="12.0.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="bc99c0d6adbb86e7ea5b63c106c6b7e792416d8da5796e272f951a8bb341a3b4"/>
+      <attribute name="url" value="pnnl.goss.core.security-propertyfile/pnnl.goss.core.security-propertyfile-12.0.0.jar"/>
+      <attribute name="size" type="Long" value="8173"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.bundle">
+      <attribute name="osgi.bundle" value="pnnl.goss.core.security-propertyfile"/>
+      <attribute name="bundle-version" type="Version" value="12.0.0"/>
     </capability>
   </resource>
   <resource>
