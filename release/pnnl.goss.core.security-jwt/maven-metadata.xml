@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>pnnl.goss.core</groupId>
+  <artifactId>security-jwt</artifactId>
+  <versioning>
+    <latest>13.0.0</latest>
+    <release>13.0.0</release>
+    <versions>
+      <version>13.0.0</version>
+    </versions>
+    <lastUpdated>20260211194143</lastUpdated>
+  </versioning>
+</metadata>
