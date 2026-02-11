@@ -254,20 +254,34 @@ def generate_osgi_index(repo_dir: Path, force: bool = False) -> None:
         existing_bundles = {}
         log_info(f"Processing all {len(jars_to_process)} JAR(s)")
     else:
+        existing_bundles = parse_existing_index(index_path)
+
         # Try git-based change detection
         if is_git_repo(repo_dir):
             jars_to_process = get_changed_jars_git(repo_dir)
             log_info(f"Found {len(jars_to_process)} changed JAR(s) via git")
         else:
-            # Fall back to processing all
-            jars_to_process = get_all_jars(repo_dir)
-            log_info(f"Processing all {len(jars_to_process)} JAR(s) (no git)")
+            jars_to_process = []
 
-        existing_bundles = parse_existing_index(index_path)
+        # Also detect JARs on disk that are missing from the existing index
+        all_jars = get_all_jars(repo_dir)
+        indexed_urls = set(existing_bundles.keys())
+        for jar_path in all_jars:
+            relative = str(jar_path.relative_to(repo_dir))
+            if relative not in indexed_urls and jar_path not in jars_to_process:
+                jars_to_process.append(jar_path)
 
-    if not jars_to_process and existing_bundles:
-        log_info("No changes detected - index is up to date")
-        return
+        if jars_to_process:
+            log_info(f"Total JARs to process: {len(jars_to_process)}")
+        else:
+            # Check for stale entries (indexed but no longer on disk)
+            all_jar_paths = {str(j.relative_to(repo_dir)) for j in all_jars}
+            stale = [url for url in indexed_urls if url not in all_jar_paths]
+            if stale:
+                log_info(f"Found {len(stale)} stale index entries to remove")
+            else:
+                log_info("No changes detected - index is up to date")
+                return
 
     # Build set of changed JAR paths for quick lookup
     changed_paths = {str(jar.relative_to(repo_dir)) for jar in jars_to_process}
@@ -277,9 +291,9 @@ def generate_osgi_index(repo_dir: Path, force: bool = False) -> None:
     updated_count = 0
     preserved_count = 0
 
-    # Preserve unchanged bundles from existing index
+    # Preserve unchanged bundles from existing index (skip stale and changed)
     for url, resource_xml in existing_bundles.items():
-        if url not in changed_paths:
+        if url not in changed_paths and (repo_dir / url).exists():
             resources.append(resource_xml)
             preserved_count += 1
 
