@@ -320,8 +320,13 @@ def generate_osgi_index(repo_dir: Path, force: bool = False) -> None:
     index_path.write_text(xml_content)
 
     # Generate compressed version
-    with gzip.open(repo_dir / 'index.xml.gz', 'wt') as f:
+    gz_path = repo_dir / 'index.xml.gz'
+    with gzip.open(gz_path, 'wt') as f:
         f.write(xml_content)
+
+    # Generate SHA-256 checksums
+    (repo_dir / 'index.xml.sha').write_text(get_file_sha256(index_path) + '\n')
+    (repo_dir / 'index.xml.gz.sha').write_text(get_file_sha256(gz_path) + '\n')
 
     log_info(f"  Total bundles: {len(resources)}")
     log_info(f"  New/Updated: {updated_count}")
@@ -329,13 +334,16 @@ def generate_osgi_index(repo_dir: Path, force: bool = False) -> None:
     log_info(f"{Colors.GREEN}✓ OSGi index generated: {index_path}{Colors.NC}")
 
 
-def generate_maven_metadata(artifact_dir: Path) -> None:
-    """Generate Maven metadata for an artifact directory."""
+def generate_maven_metadata(artifact_dir: Path) -> bool:
+    """Generate Maven metadata for an artifact directory.
+
+    Returns True if the file was written (content changed), False if skipped.
+    """
     artifact_name = artifact_dir.name
     jars = list(artifact_dir.glob('*.jar'))
 
     if not jars:
-        return
+        return False
 
     # Extract versions from JAR filenames
     versions = []
@@ -351,11 +359,24 @@ def generate_maven_metadata(artifact_dir: Path) -> None:
                 versions.append(match.group(1))
 
     if not versions:
-        return
+        return False
 
     # Sort versions (simple string sort, works for most version schemes)
     versions.sort()
     latest_version = versions[-1]
+
+    # Check if existing metadata already has the same version list
+    metadata_path = artifact_dir / 'maven-metadata.xml'
+    if metadata_path.exists():
+        try:
+            existing_content = metadata_path.read_text()
+            existing_versions = re.findall(r'<version>([^<]+)</version>', existing_content)
+            if sorted(existing_versions) == versions:
+                log_debug(f"  Unchanged: {artifact_dir.name}")
+                return False
+        except Exception:
+            pass
+
     last_updated = datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S')
 
     # Derive groupId and artifactId from artifact name
@@ -385,9 +406,9 @@ def generate_maven_metadata(artifact_dir: Path) -> None:
 </metadata>
 '''
 
-    metadata_path = artifact_dir / 'maven-metadata.xml'
     metadata_path.write_text(metadata)
     log_debug(f"  Generated Maven metadata: {metadata_path}")
+    return True
 
 
 def is_maven_metadata_valid(artifact_dir: Path) -> bool:
@@ -440,9 +461,12 @@ def update_maven_metadata(repo_dir: Path, force: bool = False) -> None:
 
     for artifact_dir in sorted(artifact_dirs):
         if force or not is_maven_metadata_valid(artifact_dir):
-            generate_maven_metadata(artifact_dir)
-            updated_count += 1
-            log_info(f"  Updated: {artifact_dir.name}")
+            if generate_maven_metadata(artifact_dir):
+                updated_count += 1
+                log_info(f"  Updated: {artifact_dir.name}")
+            else:
+                skipped_count += 1
+                log_debug(f"  Skipped (unchanged): {artifact_dir.name}")
         else:
             skipped_count += 1
             log_debug(f"  Skipped (valid): {artifact_dir.name}")
